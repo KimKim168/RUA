@@ -17,23 +17,13 @@
                                 d="m1 9 4-4-4-4" />
                         </svg>
                         <a href="#"
-                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">About
-                            RUA
+                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
+                            Industrial Linkage and Business Startup
                         </a>
                     </div>
                 </li>
-                <li>
-                    <div class="flex items-center">
-                        <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="m1 9 4-4-4-4" />
-                        </svg>
-                        <a href="#"
-                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white ">Vision
-                        </a>
-                    </div>
-                </li>
+
+
             </ol>
         </section>
         <!-- End Breadcrumbs -->
@@ -44,24 +34,24 @@
             <div class="col-span-12 lg:col-span-3">
                 <div class="cursor-pointer border-2 border-t-[#15803d] rounded-md pl-8 py-4 pr-2">
                     <ul class="space-y-3   text-sm">
-
-
                         <!-- item6 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="">Vision</a>
+                            class="w-full hover:underline underline-offset-1 text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="">Introduction
+                            </a>
                         </li>
                         <!-- item6 -->
                         <li
                             class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="">Mission</a>
+                            <a href="">Students Business and Campus
+
+                            </a>
                         </li>
                         <!-- item6 -->
                         <li
                             class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="">RUA at a glance</a>
+                            <a href="">Even and New</a>
                         </li>
-
 
                     </ul>
                 </div>
@@ -77,7 +67,7 @@
                         <div class="space-y-4 md:space-y-6">
                             <div class="space-y-3">
                                 <h2 class="text-2xl font-bold md:text-3xl dark:text-white">
-                                    Vision
+                                    Industrial Linkage and Business Startup
                                 </h2>
                             </div>
 
@@ -90,7 +80,6 @@
                                 </a>
 
                             </figure>
-                            <p class="uppercase font-bold">Introduction</p>
                             <p class="text-md text-gray-800 dark:text-neutral-200 text-justify">
                                 As we've grown, we've seen how Preline has
                                 helped companies such as Spotify, Microsoft,

@@ -30,3 +30,39 @@ Route::get('/vision', function () {
 Route::get('/organizationchart', function () {
     return view('client.organizationchart');
 })->name('client.organizationchart');
+Route::get('/allfaculty', function () {
+    return view('client.allfaculty');
+})->name('client.allfaculty');
+Route::get('/administrativeandpersionnel', function () {
+    return view('client.administrativeandpersionnel');
+})->name('client.administrativeandpersionnel');
+Route::get('/researchanddevelopment', function () {
+    return view('client.researchanddevelopment');
+})->name('client.researchanddevelopment');
+Route::get('/researchprofile', function () {
+    return view('client.researchprofile');
+})->name('client.researchprofile');
+Route::get('/recentproject', function () {
+    return view('client.recentproject');
+})->name('client.recentproject');
+Route::get('/industriallink', function () {
+    return view('client.industriallink');
+})->name('client.industriallink');
+Route::get('/library', function () {
+    return view('client.library');
+})->name('client.library');
+Route::get('/partner', function () {
+    return view('client.partner');
+})->name('client.partner');
+Route::get('/journal', function () {
+    return view('client.journal');
+})->name('client.journal');
+Route::get('/contact', function () {
+    return view('client.contact');
+})->name('client.contact');
+Route::get('/subinternal', function () {
+    return view('client.subinternal');
+})->name('client.subinternal');
+Route::get('/subinternational', function () {
+    return view('client.subinternational');
+})->name('client.subinternational');

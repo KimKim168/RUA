@@ -1,4 +1,4 @@
-@extends('layouts.client');
+@extends('layouts.client')
 @section('content')
     <section class="" style="">
         <!-- Start Breadcrumbs -->

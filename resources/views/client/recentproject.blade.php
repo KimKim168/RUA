@@ -16,9 +16,9 @@
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="m1 9 4-4-4-4" />
                         </svg>
-                        <a href="#"
-                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">About
-                            RUA
+                        <a href="{{ url('/researchanddevelopment') }}"
+                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
+                            Research and Development Project
                         </a>
                     </div>
                 </li>
@@ -30,10 +30,12 @@
                                 d="m1 9 4-4-4-4" />
                         </svg>
                         <a href="#"
-                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white ">Vision
+                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
+                            Recent project
                         </a>
                     </div>
                 </li>
+
             </ol>
         </section>
         <!-- End Breadcrumbs -->
@@ -45,24 +47,18 @@
                 <div class="cursor-pointer border-2 border-t-[#15803d] rounded-md pl-8 py-4 pr-2">
                     <ul class="space-y-3   text-sm">
 
-
-                        <!-- item6 -->
                         <li
                             class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="">Vision</a>
+                            <a href="#">University Development and Research Project
+                            </a>
                         </li>
                         <!-- item6 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="">Mission</a>
+                            class="w-full hover:underline underline-offset-1 text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="#">
+                                Development and Research Project at Faculty Level
+                            </a>
                         </li>
-                        <!-- item6 -->
-                        <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="">RUA at a glance</a>
-                        </li>
-
-
                     </ul>
                 </div>
             </div>
@@ -77,29 +73,20 @@
                         <div class="space-y-4 md:space-y-6">
                             <div class="space-y-3">
                                 <h2 class="text-2xl font-bold md:text-3xl dark:text-white">
-                                    Vision
+                                    Recent project
                                 </h2>
                             </div>
 
                             <figure class="border-2">
-                                <a href="{{ asset('assets/New Image/15896361_704356923079810_5674614839886319861_o.jpg') }}"
+                                <a href="{{ asset('assets/New Image/16107572_704354176413418_4398238422947701313_o.jpg') }}"
                                     class="glightbox2">
                                     <img class="w-full object-cover"
-                                        src="{{ asset('assets/New Image/15896361_704356923079810_5674614839886319861_o.jpg') }}"
+                                        src="{{ asset('assets/New Image/16107572_704354176413418_4398238422947701313_o.jpg') }}"
                                         alt="Image Description" />
                                 </a>
 
                             </figure>
-                            <p class="uppercase font-bold">Introduction</p>
-                            <p class="text-md text-gray-800 dark:text-neutral-200 text-justify">
-                                As we've grown, we've seen how Preline has
-                                helped companies such as Spotify, Microsoft,
-                                Airbnb, Facebook, and Intercom bring their
-                                designers closer together to create amazing
-                                things. We've also learned that when the culture
-                                of sharing is brought in earlier, the better
-                                teams adapt and communicate with one another.
-                            </p>
+
                         </div>
                         <!-- End Content -->
                     </div>
@@ -110,7 +97,7 @@
 
             <!-- Start Right Section -->
             <div class="col-span-12 space-y-6 lg:col-span-3 ">
-                <div id="contactbox" class="p-6 bg-white rounded-lg border-2  border-t-[#15803d]">
+                {{-- <div id="contactbox" class="p-6 bg-white rounded-lg border-2  border-t-[#15803d]">
                     <h2 class="text-2xl font-semibold mb-4">Scholarship</h2>
                     <img src="{{ asset('assets/New Image/11889966_490084771173694_6492652541950480321_o.jpg') }}"
                         alt="Contact Image" class="w-full h-auto mb-4 rounded-lg" />
@@ -123,7 +110,7 @@
                     </div>
 
 
-                </div>
+                </div> --}}
                 <div id="contactbox" class="p-6 bg-white rounded-lg border  border-t-[#15803d]">
                     <h2 class="text-2xl font-semibold mb-4">Contact Info</h2>
                     <img src="https://rupp.edu.kh/images/contact.jpg" alt="Contact Image"

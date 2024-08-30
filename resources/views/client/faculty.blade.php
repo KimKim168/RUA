@@ -39,72 +39,72 @@
         <!-- End Breadcrumbs -->
 
         <!-- Start Main Content -->
-        <div class="p-2 max-w-7xl mx-auto grid grid-cols-12 gap-4">
+        <div class="p-2 max-w-7xl mx-auto grid grid-cols-12 gap-4 ">
             <!-- Start Left section -->
-            <div class="col-span-12 lg:col-span-3">
-                <div class="cursor-pointer border rounded-md pl-8 py-4 pr-2">
-                    <ul class="space-y-3">
+            <div class="col-span-12 lg:col-span-3  ">
+                <div class="cursor-pointer   border-2 border-t-[#15803d] rounded-md pl-8 py-4 pr-2">
+                    <ul class="space-y-3 ">
                         <!-- item1 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="#"> Message From Dean </a>
                         </li>
                         <!-- item1 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="#"> Vision
                             </a>
                         </li>
                         <!-- item2 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="#"> Mission
                             </a>
                         </li>
                         <!-- item3 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="vision.html">Academic program </a>
                         </li>
                         <!-- item4 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="#">Admission
                             </a>
                         </li>
                         <!-- item5 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="#">Department </a>
                         </li>
                         <!-- item6 -->
                         <li
-                            class="w-full underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="{{ url('/profile') }}">Faculty Profile</a>
                         </li>
                         <!-- item7 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="">Resource and Laboratory
                             </a>
                         </li>
                         <!-- item8 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="#">
                                 Project
                             </a>
                         </li>
                         <!-- item9 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="#">Publication
                             </a>
                         </li>
 
                         <!-- item10 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="#">Students life
                             </a>
                         </li>
@@ -114,7 +114,7 @@
             <!-- End Left Section -->
 
             <!-- Start Middle section -->
-            <div class="col-span-12 lg:col-span-6 border rounded-md">
+            <div class="col-span-12 lg:col-span-6 border-2 border-t-[#15803d]  rounded-md">
                 <!-- Blog Article -->
                 <div class="max-w-3xl px-4 pt-6 pb-12 sm:px-6 lg:px-8 mx-auto">
                     <div class="max-w-2xl">
@@ -150,8 +150,8 @@
             <!-- End Middle section -->
 
             <!-- Start Right Section -->
-            <div class="col-span-12 space-y-6 lg:col-span-3">
-                <div id="contactbox" class="p-6 bg-white shadow-lg rounded-lg border">
+            <div class="col-span-12 space-y-6 lg:col-span-3 ">
+                <div id="contactbox" class="p-6 bg-white shadow-lg rounded-lg border-2 border-t-[#15803d] ">
                     <h2 class="text-2xl font-semibold mb-4">Contact Info</h2>
                     <img src="https://rupp.edu.kh/images/contact.jpg" alt="Contact Image"
                         class="w-full h-auto mb-4 rounded-lg" />

@@ -301,7 +301,7 @@
                                                             <ul class="py-2 text-sm text-gray-700 dark:text-gray-200 border-none "
                                                                 aria-labelledby="supportDropdownButton">
                                                                 <li class="">
-                                                                    <a href="#"
+                                                                    <a href="{{ url('/administrativeandpersionnel') }}"
                                                                         class="block px-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white whitespace-normal">
                                                                         Office of Administrative and Personnel
                                                                     </a>
@@ -325,7 +325,7 @@
                                         {{-- Start  Research and Development Project --}}
                                         <li
                                             class="flex items-center px-2 leading-4 text-gray-900 border-[#15803d] border-r max-w-60 hover:underline hover:decoration-[#15803d]">
-                                            <a href="">
+                                            <a href="{{ url('/researchanddevelopment') }}">
                                                 <p class="p-1 text-center">
                                                     Research and Development Project
                                                 </p>
@@ -336,7 +336,7 @@
                                         {{-- Start   Industrial Linkage and Business Startup --}}
                                         <li
                                             class="flex items-center px-2 leading-4 text-gray-900 border-[#15803d] border-r max-w-60 hover:underline hover:decoration-[#15803d]">
-                                            <a href="">
+                                            <a href="{{ url('/industriallink ') }}">
                                                 <p class="p-1 text-center">
                                                     Industrial Linkage and Business Startup
                                                 </p>
@@ -347,7 +347,7 @@
                                         {{-- Start Partner --}}
                                         <li
                                             class="flex items-center px-2 leading-4 text-gray-900 border-[#15803d] border-r max-w-60 hover:underline hover:decoration-[#15803d]">
-                                            <a href="">
+                                            <a href="{{ url('/partner') }}">
                                                 <p class="p-1 text-center">
                                                     Partner
                                                 </p>
@@ -358,7 +358,7 @@
                                         {{-- Start Library --}}
                                         <li
                                             class="flex items-center px-2 leading-4 text-gray-900 border-[#15803d] border-r max-w-60 hover:underline hover:decoration-[#15803d]">
-                                            <a href="">
+                                            <a href="{{ url('/library') }}">
                                                 <p class="p-1 text-center">
                                                     Library
                                                 </p>
@@ -369,7 +369,7 @@
                                         {{-- strat Foundation  --}}
                                         <li
                                             class="flex items-center px-2 leading-4 text-gray-900 border-[#15803d] border-r max-w-60 hover:underline hover:decoration-[#15803d]">
-                                            <a href="">
+                                            <a href="{{ url('/journal') }}">
                                                 <p class="p-1 text-center">
                                                     Journal
                                                 </p>
@@ -380,7 +380,7 @@
                                         {{-- strat Contact Us  --}}
                                         <li
                                             class="flex items-center px-2 leading-4 text-gray-900 border-[#15803d] border-r max-w-60 hover:underline hover:decoration-[#15803d]">
-                                            <a href="">
+                                            <a href="{{ url('/contact') }}">
                                                 <p class="p-1 text-center">
                                                     Contact Us
                                                 </p>
