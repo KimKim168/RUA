@@ -66,3 +66,34 @@ Route::get('/subinternal', function () {
 Route::get('/subinternational', function () {
     return view('client.subinternational');
 })->name('client.subinternational');
+Route::get('/association', function () {
+    return view('client.association');
+})->name('client.association');
+
+Route::get('/bachelor', function () {
+    return view('client.bachelor');
+})->name('client.bachelor');
+
+Route::get('/master', function () {
+    return view('client.master');
+})->name('client.master');
+
+Route::get('/phd', function () {
+    return view('client.phd');
+})->name('client.phd');
+
+Route::get('/foundation', function () {
+    return view('client.foundation');
+})->name('client.foundation');
+
+Route::get('/assessment', function () {
+    return view('client.assessment');
+})->name('client.assessment');
+
+Route::get('/gradingsystem', function () {
+    return view('client.gradingsystem');
+})->name('client.gradingsystem');
+
+Route::get('/curriculum', function () {
+    return view('client.curriculum');
+})->name('client.curriculum');

@@ -43,7 +43,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Moul&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Siemreap&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Moul&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Siemreap&family=Lora:ital&display=swap"
         rel="stylesheet">
     <script>
         tailwind.config = {
@@ -315,7 +315,6 @@
                                                                 </li>
                                                             </ul>
                                                         </div>
-
                                                     </li>
                                                 </ul>
                                             </div>
@@ -366,7 +365,7 @@
                                         </li>
                                         {{-- End Library --}}
 
-                                        {{-- strat Foundation  --}}
+                                        {{-- strat Journal  --}}
                                         <li
                                             class="flex items-center px-2 leading-4 text-gray-900 border-[#15803d] border-r max-w-60 hover:underline hover:decoration-[#15803d]">
                                             <a href="{{ url('/journal') }}">
@@ -375,7 +374,7 @@
                                                 </p>
                                             </a>
                                         </li>
-                                        {{-- End Foundation --}}
+                                        {{-- End Journal --}}
 
                                         {{-- strat Contact Us  --}}
                                         <li
@@ -422,7 +421,7 @@
                                 aria-labelledby="academicDropdownButton">
                                 {{-- Item 1 --}}
                                 <li>
-                                    <a href="#"
+                                    <a href="{{ url('/association') }}"
                                         class="block px-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Associate
                                         Degree
                                     </a>
@@ -431,7 +430,7 @@
                                 <li>
                                     {{-- link to faculty --}}
                                     <div class="flex">
-                                        <a href="#"
+                                        <a href="{{ url('/bachelor') }}"
                                             class="flex-1 pl-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Bachelor
                                             Degree
                                         </a>
@@ -447,18 +446,18 @@
                                 {{-- Item 4 --}}
                                 <li>
                                     <div class="flex">
-                                        <a href="#"
-                                            class="flex-1 pl-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Master
-                                            Degree
+                                        <a href="{{ url('/master') }}"
+                                            class="flex-1 pl-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Program
+                                            Master Degree
                                         </a>
                                         </button>
                                     </div>
                                 </li>
                                 {{-- Item 5 --}}
                                 <li>
-                                    <a href="#"
-                                        class="block px-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">PhD
-                                        Program
+                                    <a href="{{ url('/phd') }}"
+                                        class="block px-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Program
+                                        PhD
                                     </a>
                                 </li>
 
@@ -580,7 +579,7 @@
                     {{-- Start  Student life --}}
                     <li
                         class="flex items-center px-1 leading-4 text-white border-r border-white max-w-[135px] p-1 hover:bg-white hover:text-primary">
-                        <a href="">
+                        <a href="{{ url('/foundation') }}">
                             <p class="p-1 text-center">
                                 Foundation
                             </p>

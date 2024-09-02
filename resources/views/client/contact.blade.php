@@ -46,7 +46,6 @@
                             <span class="block">Tel: (855) 17 584 150/ 77 396 864</span>
                             <span class="block">Email address:
                                 <a href="#" class="text-blue-500 hover:underline">info@rua.edu.kh</a>
-
                             </span>
                         </address>
 
