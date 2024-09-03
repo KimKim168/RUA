@@ -1,6 +1,6 @@
 @extends('layouts.client')
 @section('content')
-    <section class="" style="">
+    <section class="font-poppins" style="">
         <!-- Start Breadcrumbs -->
         <section class="max-w-7xl mx-auto my-4 border-2 border-x-0 border-t-0 py-3" aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse text-black">
@@ -61,7 +61,7 @@
                         <!-- Content -->
                         <div class="space-y-4 md:space-y-6">
                             <div class="space-y-3">
-                                <h2 class="text-2xl font-bold md:text-3xl dark:text-white">
+                                <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
                                     Program PhD
                                 </h2>
                             </div>
@@ -74,7 +74,7 @@
                                 </a>
 
                             </figure>
-                            <p class="uppercase font-bold">Introduction</p>
+
                             <p class="text-md text-gray-800 dark:text-neutral-200 text-justify">
                                 As we've grown, we've seen how Preline has
                                 helped companies such as Spotify, Microsoft,
@@ -93,23 +93,21 @@
             <!-- End Middle section -->
 
             <!-- Start Right Section -->
-            <div class="col-span-12 space-y-6 lg:col-span-3 ">
+            <div class="col-span-12 space-y-6 lg:col-span-3  ">
                 <div id="contactbox" class="p-6 bg-white rounded-lg border-2  border-t-[#15803d]">
-                    <h2 class="text-2xl font-semibold mb-4">Scholarship</h2>
+                    <h2 class="text-2xl font-semibold mb-4 font-domine">Scholarship</h2>
                     <img src="{{ asset('assets/New Image/11889966_490084771173694_6492652541950480321_o.jpg') }}"
                         alt="Contact Image" class="w-full h-auto mb-4 rounded-lg" />
 
                     <div class="mb-6">
-                        <h3 class="text-md font-semibold mb-2 ">
+                        <h3 class="text-md  mb-2 font-poppins">
                             Students who are looking for a scholarship, RUPP provides a number of sources of scholarships.
                         </h3>
 
                     </div>
-
-
                 </div>
-                <div id="contactbox" class="p-6 bg-white rounded-lg border  border-t-[#15803d]">
-                    <h2 class="text-2xl font-semibold mb-4">Contact Info</h2>
+                <div id="contactbox" class="p-6 bg-white rounded-lg border-2  border-t-[#15803d]">
+                    <h2 class="text-2xl font-semibold mb-4 font-domine">Contact Info</h2>
                     <img src="https://rupp.edu.kh/images/contact.jpg" alt="Contact Image"
                         class="w-full h-auto mb-4 rounded-lg" />
 

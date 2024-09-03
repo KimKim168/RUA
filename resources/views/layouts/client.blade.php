@@ -43,7 +43,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Moul&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Siemreap&family=Lora:ital&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Moul&family=Poppins:ital&family=Domine,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Siemreap&family=Lora:ital&display=swap"
         rel="stylesheet">
     <script>
         tailwind.config = {
@@ -70,6 +70,9 @@
                         "Poppins", "Roboto", "Arial", "Inter", "ui-sans-serif", "system-ui", "-apple-system",
                         "system-ui", "Segoe UI", "Helvetica Neue",
                     ],
+                    domine: [
+                        "Domine"
+                    ]
 
                 },
             },
@@ -592,7 +595,7 @@
 
                         <button id="graduateDropdownButton" data-dropdown-toggle="graduate"
                             class="p-1 flex items-center text-center " type="button">
-                            Graduate Program
+                            Graduate Programs
                             <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 10 6">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -605,10 +608,9 @@
                             <ul class="py-2 text-sm text-gray-700 dark:text-gray-200 border-none"
                                 aria-labelledby="graduateDropdownButton">
                                 <li>
-                                    <a href="#"
+                                    <a href="{{ url('/graduate') }}"
                                         class="block px-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Graduate
-                                        Programe
-
+                                        Programs
                                     </a>
                                 </li>
                                 <li>
@@ -679,9 +681,9 @@
                     {{-- Start Vocational Training & Foreign Language --}}
                     <li
                         class="flex items-center px-1 leading-4 text-white border-r border-white max-w-[135px] p-1 hover:bg-white hover:text-primary">
-                        <a href="">
+                        <a href="{{ url('/languages') }}">
                             <p class="p-1 text-center">
-                                Vocational Training & Foreign Language
+                                Vocational Training & Foreign Languages
                             </p>
                         </a>
                     </li>
@@ -691,9 +693,9 @@
                     {{-- Start Student life --}}
                     <li
                         class="flex items-center px-1 leading-4 text-white border-r border-white max-w-[135px] p-1 hover:bg-white hover:text-primary">
-                        <a href="">
+                        <a href="{{ url('/student_life') }}">
                             <p class="p-1 text-center">
-                                Student life
+                                Students life
                             </p>
                         </a>
                     </li>
@@ -711,7 +713,7 @@
     {{-- End content --}}
 
     {{-- Start Foolter --}}
-    <footer class="bg-gray-300 w-full mt-20">
+    <footer class="bg-gray-300 w-full mt-20 font-poppins">
         <div class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
             <div class="grid gap-10 row-gap-6 lg:grid-cols-5">
                 <div class="lg:col-span-2">
@@ -738,7 +740,7 @@
                 </div>
                 <div class="space-y-2 text-sm">
                     <a href="" class="cursor-pointer">
-                        <p class="text-base font-bold tracking-wide text-gray-900">Contacts</p>
+                        <p class="text-base font-bold tracking-wide text-gray-900 font-domine">Contacts</p>
                     </a>
                     <div class=" no-tailwind">
                         <ul class="mb-8  dark:text-gray-400">
@@ -755,7 +757,7 @@
                 </div>
                 <div class="space-y-2 text-sm">
                     <a href="" class="cursor-pointer">
-                        <p class="text-base font-bold tracking-wide text-gray-900">Social</p>
+                        <p class="text-base font-bold tracking-wide text-gray-900 font-domine">Social</p>
                     </a>
                     <div class="flex gap-4">
 

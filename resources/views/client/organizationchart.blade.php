@@ -1,6 +1,6 @@
 @extends('layouts.client')
 @section('content')
-    <section class="" style="">
+    <section class="font-poppins" style="">
         <!-- Start Breadcrumbs -->
         <section class="max-w-7xl mx-auto my-4 border-2 border-x-0 border-t-0 py-3" aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse text-black">
@@ -29,10 +29,11 @@
 
 
 
-        <div class="relative overflow-x-auto shadow-md sm:rounded-lg max-w-screen-xl mx-auto mt-10">
+        <div
+            class="relative overflow-x-auto shadow-md sm:rounded-lg max-w-screen-xl border-2 border-t-[#15803d] mx-auto mt-10">
             <table
-                class=" text-sm text-left w-full border-2 border-t-[#15803d] rtl:text-right text-gray-500 dark:text-gray-400">
-                <thead class="text-xs text-white uppercase bg-[#15803d] dark:bg-gray-700 dark:text-gray-400">
+                class=" text-sm border-separate border-spacing-2 text-left w-full  rtl:text-right text-gray-500 dark:text-gray-400">
+                <thead class="border  text-xs text-white uppercase bg-[#15803d] dark:bg-gray-700 dark:text-gray-400">
                     <tr>
                         <th scope="col" class="px-6 py-3">
                             Photo
@@ -50,67 +51,110 @@
                         <th scope="col" class="px-6 py-3">
                             Email
                         </th>
+                        <th scope="col" class="px-6 py-3">
+                            Degree
+                        </th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr
-                        class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                <tbody class="">
+                    <tr class="text-black font-poppins">
+                        <th scope="row" class="px-6 py-4 border border-[#15803d]  whitespace-nowrap dark:text-white">
                             <img src="{{ asset('assets/images/teacher2.png') }}" class="h-44 aspect-square object-cover">
                         </th>
-                        <td class="px-6 py-4">
+                        <td class="px-6 py-4 border border-[#15803d]">
                             CHEA BUNTHON
                         </td>
-                        <td class="px-6 py-4">
+                        <td class="px-6 py-4 border border-[#15803d]">
                             Vice-Dean
                         </td>
-                        <td class="px-6 py-4">
+                        <td class="px-6 py-4 border border-[#15803d]">
                             Master
                         </td>
-                        <td class="px-6 py-4">
+                        <td class="px-6 py-4 border border-[#15803d]">
                             cheabunthon@rua.edu.kh
                         </td>
+                        <td class="px-6 py-4 border border-[#15803d] ">
+                            <a href="{{ asset('assets/New Image/degree.jpg') }}" class="glightbox2" data-gallery="gallery1">
+                                <img class="w-full object-cover" src="{{ asset('assets/New Image/degree.jpg') }}"
+                                    alt="Image Description" />
+                            </a>
+                        </td>
 
                     </tr>
-                    <tr
-                        class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    <tr class="text-black font-poppins">
+                        <th scope="row" class="px-6 py-4 border border-[#15803d]  whitespace-nowrap dark:text-white">
                             <img src="{{ asset('assets/images/teacher1.png') }}" class="h-44 aspect-square object-cover">
                         </th>
-                        <td class="px-6 py-4">
+                        <td class="px-6 py-4 border border-[#15803d]">
                             KANG KROESNA
                         </td>
-                        <td class="px-6 py-4">
+                        <td class="px-6 py-4 border border-[#15803d]">
                             Dean
                         </td>
-                        <td class="px-6 py-4">
+                        <td class="px-6 py-4 border border-[#15803d]">
                             PHD
                         </td>
-                        <td class="px-6 py-4">
+                        <td class="px-6 py-4 border border-[#15803d]">
                             kkroesna@rua.edu.kh
                         </td>
+                        <td class="px-6 py-4 border border-[#15803d] ">
+                            <a href="{{ asset('assets/New Image/degree.jpg') }}" class="glightbox2" data-gallery="gallery2">
+                                <img class="w-full object-cover" src="{{ asset('assets/New Image/degree.jpg') }}"
+                                    alt="Image Description" />
+                            </a>
+                        </td>
 
                     </tr>
-                    <tr
-                        class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    <tr class="text-black font-poppins">
+                        <th scope="row" class="px-6 py-4 border border-[#15803d]  whitespace-nowrap dark:text-white">
                             <img src="{{ asset('assets/images/teacher3.png') }}" class="h-44 aspect-square object-cover">
                         </th>
-                        <td class="px-6 py-4">
+                        <td class="px-6 py-4 border border-[#15803d]">
                             THENG KOUCH
                         </td>
-                        <td class="px-6 py-4">
+                        <td class="px-6 py-4 border border-[#15803d]">
                             Vice-Dean
                         </td>
-                        <td class="px-6 py-4">
+                        <td class="px-6 py-4 border border-[#15803d]">
                             PHD
                         </td>
-                        <td class="px-6 py-4">
+                        <td class="px-6 py-4 border border-[#15803d]">
                             thengkouch@rua.edu.kh
+                        </td>
+                        <td class="px-6 py-4 border border-[#15803d] ">
+                            <a href="{{ asset('assets/New Image/degree.jpg') }}" class="glightbox2" data-gallery="gallery3">
+                                <img class="w-full object-cover" src="{{ asset('assets/New Image/degree.jpg') }}"
+                                    alt="Image Description" />
+                            </a>
+                        </td>
+
+
+                    </tr>
+                    <tr class="text-black font-poppins">
+                        <th scope="row" class="px-6 py-4 border border-[#15803d]  whitespace-nowrap dark:text-white">
+                            <img src="{{ asset('assets/images/teacher1.png') }}" class="h-44 aspect-square object-cover">
+                        </th>
+                        <td class="px-6 py-4 border border-[#15803d]">
+                            KANG KROESNA
+                        </td>
+                        <td class="px-6 py-4 border border-[#15803d]">
+                            Dean
+                        </td>
+                        <td class="px-6 py-4 border border-[#15803d]">
+                            PHD
+                        </td>
+                        <td class="px-6 py-4 border border-[#15803d]">
+                            kkroesna@rua.edu.kh
+                        </td>
+                        <td class="px-6 py-4 border border-[#15803d] ">
+                            <a href="{{ asset('assets/New Image/degree.jpg') }}" class="glightbox2"
+                                data-gallery="gallery4">
+                                <img class="w-full object-cover" src="{{ asset('assets/New Image/degree.jpg') }}"
+                                    alt="Image Description" />
+                            </a>
                         </td>
 
                     </tr>
-
                 </tbody>
             </table>
         </div>

@@ -1,6 +1,6 @@
 @extends('layouts.client')
 @section('content')
-    <section class="" style="">
+    <section class="font-poppins" style="">
         <!-- Start Breadcrumbs -->
         <section class="max-w-7xl mx-auto my-4 border-2 border-x-0 border-t-0 py-3" aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse text-black">
@@ -50,21 +50,52 @@
 
                         <!-- item1 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-left  rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="#">Introduction
+                            </a>
+                        </li>
+                        <!-- item1 -->
+                        <li
+                            class="w-full hover:underline text-left  rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="#">Background
+                            </a>
+                        </li>
+                        <!-- item1 -->
+                        <li
+                            class="w-full hover:underline text-left  rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="#">Mission
+                            </a>
+                        </li>
+                        <!-- item1 -->
+                        <li
+                            class="w-full hover:underline text-left  rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="#">Objective
+                            </a>
+                        </li>
+                        <!-- item1 -->
+                        <li
+                            class="w-full hover:underline text-left  rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="#">Admission
+                            </a>
+                        </li>
+                        <!-- item3 -->
+                        <li
+                            class="w-full underline text-left  rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="{{ url('/curriculum') }}">Curriculum</a>
+                        </li>
+                        <!-- item1 -->
+                        <li
+                            class="w-full underline text-left  rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="{{ url('/assessment') }}">Assessment
                             </a>
                         </li>
                         <!-- item2 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full underline text-left  rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="{{ url('/gradingsystem') }}">Grading System
                             </a>
                         </li>
-                        <!-- item3 -->
-                        <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="{{ url('/curriculum') }}">Curriculum</a>
-                        </li>
+
 
                     </ul>
                 </div>
@@ -79,7 +110,7 @@
                         <!-- Content -->
                         <div class="space-y-4 md:space-y-3">
                             <div class="space-y-3">
-                                <h2 class="text-2xl font-semibold  md:text-3xl dark:text-white">
+                                <h2 class="text-3xl  font-domine font-semibold  md:text-3xl dark:text-white">
                                     Curriculum
                                 </h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ex fugiat quos earum,
@@ -88,7 +119,8 @@
                             </div>
                             {{-- GENERAL SUBJECTS --}}
                             <div id="accordion-collapse" data-accordion="collapse" class="">
-                                <h1 class=" font-medium mb-3 text-red-600 underline  underline-offset-2 mt-5">GENERAL
+                                <h1 class=" font-medium font-domine mb-3 text-red-600 underline  underline-offset-2 mt-5">
+                                    GENERAL
                                     SUBJECTS
                                 </h1>
                                 <div>
@@ -97,7 +129,7 @@
                                         <h2 id="accordion-collapse-heading-1">
                                             <button type="button"
                                                 class="flex items-center justify-between w-full p-3 font-medium rtl:text-right text-gray-500 border border-gray-200  focus:ring-gray-200  hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
-                                                data-accordion-target="#accordion-collapse-body-1" aria-expanded="true"
+                                                data-accordion-target="#accordion-collapse-body-1" aria-expanded="false"
                                                 aria-controls="accordion-collapse-body-3">
                                                 <span>Faculty of Agronomy
                                                 </span>
@@ -233,7 +265,7 @@
                                         <h2 id="accordion-collapse-heading-2">
                                             <button type="button"
                                                 class="flex items-center justify-between w-full p-3 font-medium rtl:text-right text-gray-500 border border-gray-200  focus:ring-gray-200  hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
-                                                data-accordion-target="#accordion-collapse-body-2" aria-expanded="true"
+                                                data-accordion-target="#accordion-collapse-body-2" aria-expanded="false"
                                                 aria-controls="accordion-collapse-body-3">
                                                 <span>Faculty of Fishery
                                                 </span>
@@ -315,7 +347,8 @@
                             <!-- End GENERAL SUBJECTS -->
                             {{-- GENERAL SUBJECTS --}}
                             <div id="accordion-collapse-me1" data-accordion="collapse" class="">
-                                <h1 class=" font-medium mb-3 text-red-600 underline  underline-offset-2 mt-5">MAJOR
+                                <h1 class=" font-medium font-domine mb-3 text-red-600 underline  underline-offset-2 mt-5">
+                                    MAJOR
                                     SUBJECTS
                                 </h1>
                                 <div>
@@ -552,7 +585,7 @@
             <div class="col-span-12 space-y-6 lg:col-span-3 ">
 
                 <div id="contactbox" class="p-6 bg-white rounded-lg border-2  border-t-[#15803d]">
-                    <h2 class="text-2xl font-semibold mb-4">Contact Info</h2>
+                    <h2 class="text-2xl font-semibold mb-4 font-domine">Contact Info</h2>
                     <img src="https://rupp.edu.kh/images/contact.jpg" alt="Contact Image"
                         class="w-full h-auto mb-4 rounded-lg" />
 

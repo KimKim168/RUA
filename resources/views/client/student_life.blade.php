@@ -16,13 +16,12 @@
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="m1 9 4-4-4-4" />
                         </svg>
-                        <a href="{{ url('/partner') }}"
+                        <a href="#"
                             class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
-                            Partner
+                            Students Life
                         </a>
                     </div>
                 </li>
-
 
             </ol>
         </section>
@@ -34,18 +33,42 @@
             <div class="col-span-12 lg:col-span-3">
                 <div class="cursor-pointer border-2 border-t-[#15803d] rounded-md pl-8 py-4 pr-2">
                     <ul class="space-y-3   text-sm">
+
+
+                        <!-- item1 -->
+                        <li
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="">Introduction</a>
+                        </li>
+                        <!-- item2 -->
+                        <li
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="">Career Center</a>
+                        </li>
+                        <!-- item3 -->
+                        <li
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="">Sport Facility
+                            </a>
+                        </li>
+                        <!-- item4 -->
+                        <li
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="">Dormitory
+
+                            </a>
+                        </li>
+                        <!-- item5 -->
+                        <li
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="">Cantina
+                            </a>
+                        </li>
                         <!-- item6 -->
                         <li
-                            class="w-full hoverunderline underline-offset-1 text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="">Introduction </a>
-                        </li>
-                        <li
-                            class="w-full underline underline-offset-1 text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="{{ url('/subnational') }}">National Partners</a>
-                        </li>
-                        <li
-                            class="w-full underline underline-offset-1 text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="{{ url('/subinternational') }}">International Partners</a>
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="">Oder Service
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -60,16 +83,16 @@
                         <!-- Content -->
                         <div class="space-y-4 md:space-y-6">
                             <div class="space-y-3">
-                                <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
-                                    Partner
+                                <h2 class="text-2xl font-domine font-bold md:text-3xl dark:text-white">
+                                    Students Life
                                 </h2>
                             </div>
 
                             <figure class="border-2">
-                                <a href="{{ asset('assets/New Image/74475947_1382303995285096_5558715999273877504_n (1).jpg') }}"
+                                <a href="{{ asset('assets/New Image/5b66aa9a7db6ddb89cd5e0f5b0af2807.jpg') }}"
                                     class="glightbox2">
                                     <img class="w-full object-cover"
-                                        src="{{ asset('assets/New Image/74475947_1382303995285096_5558715999273877504_n (1).jpg') }}"
+                                        src="{{ asset('assets/New Image/5b66aa9a7db6ddb89cd5e0f5b0af2807.jpg') }}"
                                         alt="Image Description" />
                                 </a>
 
@@ -99,66 +122,10 @@
                         alt="Contact Image" class="w-full h-auto mb-4 rounded-lg" />
 
                     <div class="mb-6">
-                        <h3 class="text-md font-semibold mb-2 ">
+                        <h3 class="text-md  mb-2 font-poppins">
                             Students who are looking for a scholarship, RUPP provides a number of sources of scholarships.
                         </h3>
 
-                    </div>
-
-
-                </div>
-                <div id="contactbox" class="p-6 bg-white rounded-lg border-2  border-t-[#15803d]">
-                    <h2 class="text-2xl font-semibold mb-4 font-domine">Contact Info</h2>
-                    <img src="https://rupp.edu.kh/images/contact.jpg" alt="Contact Image"
-                        class="w-full h-auto mb-4 rounded-lg" />
-
-                    <div class="mb-6">
-                        <h3 class="text-md font-semibold mb-2">
-                            Dean, Faculty of Development Studies (FDS)
-                        </h3>
-                        <dl>
-                            <dt class="text-md font-medium">
-                                Rath Sethik, PhD
-                            </dt>
-                            <dt class="tel text-gray-600">
-                                <b>Tel:</b> (855)12 556 579
-                            </dt>
-                            <dt class="email text-gray-600">
-                                <b>Email:</b>
-                                <a href="mailto:rath.sethik@email.kh"
-                                    class="text-blue-600 hover:underline">rath.sethik@email.kh</a>
-                            </dt>
-                        </dl>
-                    </div>
-
-                    <div class="mb-6">
-                        <h3 class="text-md font-semibold mb-2">
-                            Vice Dean of FDS
-                        </h3>
-                        <dl class="mb-4">
-                            <dt class="text-md font-medium">Heng Naret, PhD</dt>
-                            <dt class="text-gray-600">
-                                <b>Tel:</b> (855)12 830 386
-                            </dt>
-                            <dt class="text-gray-600">
-                                <b>Email:</b>
-                                <a href="mailto:heng.naret@email.kh"
-                                    class="text-blue-600 hover:underline">heng.naret@email.kh</a>
-                            </dt>
-                        </dl>
-                        <dl>
-                            <dt class="text-md font-medium">
-                                Seak Sophat, PhD
-                            </dt>
-                            <dt class="text-gray-600">
-                                <b>Tel:</b> (855)16 506 888
-                            </dt>
-                            <dt class="text-gray-600">
-                                <b>Email:</b>
-                                <a href="mailto:seak.sophat@email.kh"
-                                    class="text-blue-600 hover:underline">seak.sophat@email.kh</a>
-                            </dt>
-                        </dl>
                     </div>
                 </div>
             </div>

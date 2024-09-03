@@ -62,65 +62,65 @@
                     <ul class="space-y-3">
                         <!-- item1 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
                             <a href="#"> Message From Dean </a>
                         </li>
                         <!-- item1 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
                             <a href="#"> Vision
                             </a>
                         </li>
                         <!-- item2 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
                             <a href="#"> Mission
                             </a>
                         </li>
                         <!-- item3 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
                             <a href="vision.html">Academic program </a>
                         </li>
                         <!-- item4 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
                             <a href="#">Admission
                             </a>
                         </li>
                         <!-- item5 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
                             <a href="#">Department </a>
                         </li>
                         <!-- item6 -->
                         <li
-                            class="w-full underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
                             <a href="{{ url('/profile') }}">Faculty Profile</a>
                         </li>
                         <!-- item7 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
                             <a href="">Resource and Laboratory
                             </a>
                         </li>
                         <!-- item8 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
                             <a href="#">
                                 Project
                             </a>
                         </li>
                         <!-- item9 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
                             <a href="#">Publication
                             </a>
                         </li>
 
                         <!-- item10 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
                             <a href="#">Students life
                             </a>
                         </li>
@@ -136,7 +136,7 @@
                         <!-- Content -->
                         <div class="space-y-5 md:space-y-8">
                             <div class="space-y-3">
-                                <h2 class="text-2xl font-bold md:text-3xl dark:text-white">
+                                <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
                                     Faculty Profile
                                 </h2>
                             </div>
@@ -148,7 +148,7 @@
                                     <div>
                                         <h2 id="accordion-collapse-heading-1">
                                             <button type="button"
-                                                class="flex items-center justify-between w-full p-3 font-medium rtl:text-right text-gray-500 border border-gray-200  focus:ring-gray-200  hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                                                class="flex items-center justify-between w-full p-3 font-medium rtl:text-right  border border-gray-200  focus:ring-gray-200  hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
                                                 data-accordion-target="#accordion-collapse-body-1" aria-expanded="true"
                                                 aria-controls="accordion-collapse-body-3">
                                                 <span>KANG KROESNA, PHD (Faculty of Veterinary Medicine)</span>
@@ -174,7 +174,7 @@
                                                                 <div class="flex flex-col gap-2">
                                                                     <div class="flex nowrap">
                                                                         <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            class="w-[110px] uppercase tracking-wide text-sm  dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
                                                                             Name
                                                                         </p>
                                                                         <p
@@ -505,7 +505,7 @@
             <!-- Start Right Section -->
             <div class="col-span-12 space-y-6 lg:col-span-3">
                 <div id="contactbox" class="p-6 bg-white shadow-lg rounded-lg border">
-                    <h2 class="text-2xl font-semibold mb-4">Contact Info</h2>
+                    <h2 class="text-2xl font-semibold mb-4 font-domine">Contact Info</h2>
                     <img src="https://rupp.edu.kh/images/contact.jpg" alt="Contact Image"
                         class="w-full h-auto mb-4 rounded-lg" />
 

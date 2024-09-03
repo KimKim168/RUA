@@ -64,7 +64,7 @@
     <div>
         <div class="flex justify-center px-10 pb-7 pt-10 my-5">
             <a
-                class="border-solid border-b text-xl text-gray-600 hover:px-5 py-3 transision duration-300 hover:bg-[#078e3b] hover:text-white">Faculties
+                class="border-solid  border-b text-xl text-gray-600 hover:px-5 py-3 transision duration-300 hover:bg-[#078e3b] hover:text-white">Faculties
                 / Divisions
             </a>
         </div>

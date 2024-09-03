@@ -1,6 +1,6 @@
 @extends('layouts.client')
 @section('content')
-    <section class="" style="">
+    <section class="font-poppins" style="">
         <!-- Start Breadcrumbs -->
         <section class="max-w-7xl mx-auto my-4 border-2 border-x-0 border-t-0 py-3" aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
@@ -16,7 +16,7 @@
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="m1 9 4-4-4-4" />
                         </svg>
-                        <a href="#"
+                        <a href="{{ url('/allfaculty') }}"
                             class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Faculty
                         </a>
                     </div>
@@ -74,8 +74,8 @@
                         </li>
                         <!-- item5 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="#">Department </a>
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="{{ url('/department') }}">Department </a>
                         </li>
                         <!-- item6 -->
                         <li
@@ -121,7 +121,7 @@
                         <!-- Content -->
                         <div class="space-y-5 md:space-y-8">
                             <div class="space-y-3">
-                                <h2 class="text-2xl font-bold md:text-3xl dark:text-white">
+                                <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
                                     Faculty of Veterinary Medicine
                                 </h2>
                             </div>
@@ -152,7 +152,7 @@
             <!-- Start Right Section -->
             <div class="col-span-12 space-y-6 lg:col-span-3 ">
                 <div id="contactbox" class="p-6 bg-white shadow-lg rounded-lg border-2 border-t-[#15803d] ">
-                    <h2 class="text-2xl font-semibold mb-4">Contact Info</h2>
+                    <h2 class="text-2xl font-semibold mb-4 font-domine">Contact Info</h2>
                     <img src="https://rupp.edu.kh/images/contact.jpg" alt="Contact Image"
                         class="w-full h-auto mb-4 rounded-lg" />
 

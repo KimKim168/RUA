@@ -1,6 +1,6 @@
 @extends('layouts.client')
 @section('content')
-    <section class="" style="">
+    <section class="font-poppins" style="">
         <!-- Start Breadcrumbs -->
         <section class="max-w-7xl mx-auto my-4 border-2 border-x-0 border-t-0 py-3" aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
@@ -8,7 +8,6 @@
                     <a href="{{ url('/') }}"
                         class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">Home</a>
                 </li>
-
                 <li>
                     <div class="flex items-center">
                         <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true"
@@ -34,65 +33,65 @@
                     <ul class="space-y-3">
                         <!-- item1 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="#"> Faculty of Agronomy
                             </a>
                         </li>
                         <!-- item1 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="{{ url('/economicDeverlop') }}"> Faculty of Veterinary Medicine
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="{{ url('/faculty') }}"> Faculty of Veterinary Medicine
 
                             </a>
                         </li>
                         <!-- item2 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="#"> Faculty of Ago_Industry
 
                             </a>
                         </li>
                         <!-- item3 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="vision.html">Faculty of Economic …
                             </a>
                         </li>
                         <!-- item4 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="#">Faculty of Land ……
                             </a>
                         </li>
                         <!-- item4 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="#">Faculty of AE
 
                             </a>
                         </li>
                         <!-- item5 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="#">Faculty of Fishery
                             </a>
                         </li>
                         <!-- item6 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="#">Faculty of AS
                             </a>
                         </li>
                         <!-- item7 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="">Faculty of Forestry
 
                             </a>
                         </li>
                         <!-- item8 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right text-gray-500 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="#">
                                 Faculty of
 
@@ -112,14 +111,14 @@
                         <!-- Content -->
                         <div class="space-y-5 md:space-y-8">
                             <div class="space-y-3">
-                                <h2 class="text-2xl font-bold md:text-3xl dark:text-white">
-                                    Faculty of Veterinary Medicine
+                                <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
+                                    Faculty
                                 </h2>
                             </div>
 
                             <figure class="border-2">
                                 <img class="w-full object-cover"
-                                    src="https://images.unsplash.com/photo-1670272505340-d906d8d77d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                    src="{{ asset('assets/New Image/photo_2024-06-27_14-02-58 (8).jpg') }}"
                                     alt="Image Description" />
                             </figure>
 
@@ -143,7 +142,7 @@
             <!-- Start Right Section -->
             <div class="col-span-12 space-y-6 lg:col-span-3">
                 <div id="contactbox" class="p-6 bg-white shadow-lg rounded-lg border">
-                    <h2 class="text-2xl font-semibold mb-4">Contact Info</h2>
+                    <h2 class="text-2xl font-semibold mb-4 font-domine">Contact Info</h2>
                     <img src="https://rupp.edu.kh/images/contact.jpg" alt="Contact Image"
                         class="w-full h-auto mb-4 rounded-lg" />
 

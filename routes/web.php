@@ -60,9 +60,9 @@ Route::get('/journal', function () {
 Route::get('/contact', function () {
     return view('client.contact');
 })->name('client.contact');
-Route::get('/subinternal', function () {
-    return view('client.subinternal');
-})->name('client.subinternal');
+Route::get('/subnational', function () {
+    return view('client.subnational');
+})->name('client.subnational');
 Route::get('/subinternational', function () {
     return view('client.subinternational');
 })->name('client.subinternational');
@@ -97,3 +97,19 @@ Route::get('/gradingsystem', function () {
 Route::get('/curriculum', function () {
     return view('client.curriculum');
 })->name('client.curriculum');
+
+Route::get('/graduate', function () {
+    return view('client.graduate_program');
+})->name('client.graduate_program');
+
+Route::get('/languages', function () {
+    return view('client.languages');
+})->name('client.languages');
+
+Route::get('/student_life', function () {
+    return view('client.student_life');
+})->name('client.student_life');
+
+Route::get('/department', function () {
+    return view('client.department');
+})->name('client.department');

@@ -22,6 +22,19 @@
                         </a>
                     </div>
                 </li>
+                <li>
+                    <div class="flex items-center">
+                        <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 9 4-4-4-4" />
+                        </svg>
+                        <a href="#"
+                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
+                            National Partners
+                        </a>
+                    </div>
+                </li>
 
 
             </ol>
@@ -36,17 +49,14 @@
                     <ul class="space-y-3   text-sm">
                         <!-- item6 -->
                         <li
-                            class="w-full hoverunderline underline-offset-1 text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="">Introduction </a>
+                            class="w-full hover:underline underline-offset-1 text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="">Recent Activities</a>
                         </li>
                         <li
-                            class="w-full underline underline-offset-1 text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="{{ url('/subnational') }}">National Partners</a>
+                            class="w-full hover:underline underline-offset-1 text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="#">List of partner </a>
                         </li>
-                        <li
-                            class="w-full underline underline-offset-1 text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="{{ url('/subinternational') }}">International Partners</a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -60,16 +70,16 @@
                         <!-- Content -->
                         <div class="space-y-4 md:space-y-6">
                             <div class="space-y-3">
-                                <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
-                                    Partner
+                                <h2 class="text-2xl font-domine font-bold md:text-3xl dark:text-white">
+                                    National Partners
                                 </h2>
                             </div>
 
                             <figure class="border-2">
-                                <a href="{{ asset('assets/New Image/74475947_1382303995285096_5558715999273877504_n (1).jpg') }}"
+                                <a href="{{ asset('assets/New Image/photo_2024-06-27_14-02-09 (4).jpg') }}"
                                     class="glightbox2">
                                     <img class="w-full object-cover"
-                                        src="{{ asset('assets/New Image/74475947_1382303995285096_5558715999273877504_n (1).jpg') }}"
+                                        src="{{ asset('assets/New Image/photo_2024-06-27_14-02-09 (4).jpg') }}"
                                         alt="Image Description" />
                                 </a>
 
@@ -107,7 +117,7 @@
 
 
                 </div>
-                <div id="contactbox" class="p-6 bg-white rounded-lg border-2  border-t-[#15803d]">
+                <div id="contactbox" class="p-6 bg-white rounded-lg border  border-t-[#15803d]">
                     <h2 class="text-2xl font-semibold mb-4 font-domine">Contact Info</h2>
                     <img src="https://rupp.edu.kh/images/contact.jpg" alt="Contact Image"
                         class="w-full h-auto mb-4 rounded-lg" />
