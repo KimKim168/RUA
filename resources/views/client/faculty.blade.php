@@ -63,8 +63,14 @@
                         </li>
                         <!-- item3 -->
                         <li
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="{{ url('/foundation_year') }}">Foundation Year</a>
+                        </li>
+                        <!-- item4 -->
+                        <!-- item3 -->
+                        <li
                             class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="vision.html">Academic program </a>
+                            <a href="#">Academic program </a>
                         </li>
                         <!-- item4 -->
                         <li
@@ -93,6 +99,12 @@
                             class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="#">
                                 Project
+                            </a>
+                        </li>
+                        <!-- item9 -->
+                        <li
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="{{ url('/curriculum_faculty') }}">Curriculum
                             </a>
                         </li>
                         <!-- item9 -->

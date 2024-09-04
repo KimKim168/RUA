@@ -187,9 +187,7 @@
             </div>
 
         </div>
-
         <!-- End Right Section -->
-
         <!-- End Main Content -->
     </section>
 @endsection

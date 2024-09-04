@@ -113,3 +113,11 @@ Route::get('/student_life', function () {
 Route::get('/department', function () {
     return view('client.department');
 })->name('client.department');
+
+Route::get('/foundation_year', function () {
+    return view('client.foundation_year');
+})->name('client.foundation_year');
+
+Route::get('/curriculum_faculty', function () {
+    return view('client.curriculum_faculty');
+})->name('client.curriculum_faculty');
