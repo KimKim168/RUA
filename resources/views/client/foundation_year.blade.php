@@ -179,7 +179,7 @@
                                                         <tr class="h-16">
                                                             <th class="py-2 px-4 border-b"></th>
                                                             <th class="py-2 px-4 border-b">Code</th>
-                                                            <th class="py-2 px-4 border-b">20 Credits</th>
+                                                            <th class="py-2 px-4 border-b">Credits</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
@@ -237,7 +237,7 @@
                                                         <tr class="h-16">
                                                             <th class="py-2 px-4 border-b"></th>
                                                             <th class="py-2 px-4 border-b">Code</th>
-                                                            <th class="py-2 px-4 border-b">20 Credits</th>
+                                                            <th class="py-2 px-4 border-b">Credits</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
