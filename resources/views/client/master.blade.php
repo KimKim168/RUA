@@ -130,66 +130,66 @@
 
                     </div>
                 </div>
+                <div id="contactbox" class="p-6 bg-white rounded-lg border-2  border-t-[#15803d]">
+                    <h2 class="text-2xl font-semibold mb-4 font-domine">Contact Info</h2>
+                    <img src="https://rupp.edu.kh/images/contact.jpg" alt="Contact Image"
+                        class="w-full h-auto mb-4 rounded-lg" />
 
-            </div>
-            <div id="contactbox" class="p-6 bg-white rounded-lg border-2  border-t-[#15803d]">
-                <h2 class="text-2xl font-semibold mb-4 font-domine">Contact Info</h2>
-                <img src="https://rupp.edu.kh/images/contact.jpg" alt="Contact Image"
-                    class="w-full h-auto mb-4 rounded-lg" />
+                    <div class="mb-6">
+                        <h3 class="text-md font-semibold mb-2">
+                            Dean, Faculty of Development Studies (FDS)
+                        </h3>
+                        <dl>
+                            <dt class="text-md font-medium">
+                                Rath Sethik, PhD
+                            </dt>
+                            <dt class="tel text-gray-600">
+                                <b>Tel:</b> (855)12 556 579
+                            </dt>
+                            <dt class="email text-gray-600">
+                                <b>Email:</b>
+                                <a href="mailto:rath.sethik@email.kh"
+                                    class="text-blue-600 hover:underline">rath.sethik@email.kh</a>
+                            </dt>
+                        </dl>
+                    </div>
 
-                <div class="mb-6">
-                    <h3 class="text-md font-semibold mb-2">
-                        Dean, Faculty of Development Studies (FDS)
-                    </h3>
-                    <dl>
-                        <dt class="text-md font-medium">
-                            Rath Sethik, PhD
-                        </dt>
-                        <dt class="tel text-gray-600">
-                            <b>Tel:</b> (855)12 556 579
-                        </dt>
-                        <dt class="email text-gray-600">
-                            <b>Email:</b>
-                            <a href="mailto:rath.sethik@email.kh"
-                                class="text-blue-600 hover:underline">rath.sethik@email.kh</a>
-                        </dt>
-                    </dl>
+                    <div class="mb-6">
+                        <h3 class="text-md font-semibold mb-2">
+                            Vice Dean of FDS
+                        </h3>
+                        <dl class="mb-4">
+                            <dt class="text-md font-medium">Heng Naret, PhD</dt>
+                            <dt class="text-gray-600">
+                                <b>Tel:</b> (855)12 830 386
+                            </dt>
+                            <dt class="text-gray-600">
+                                <b>Email:</b>
+                                <a href="mailto:heng.naret@email.kh"
+                                    class="text-blue-600 hover:underline">heng.naret@email.kh</a>
+                            </dt>
+                        </dl>
+                        <dl>
+                            <dt class="text-md font-medium">
+                                Seak Sophat, PhD
+                            </dt>
+                            <dt class="text-gray-600">
+                                <b>Tel:</b> (855)16 506 888
+                            </dt>
+                            <dt class="text-gray-600">
+                                <b>Email:</b>
+                                <a href="mailto:seak.sophat@email.kh"
+                                    class="text-blue-600 hover:underline">seak.sophat@email.kh</a>
+                            </dt>
+                        </dl>
+                    </div>
                 </div>
-
-                <div class="mb-6">
-                    <h3 class="text-md font-semibold mb-2">
-                        Vice Dean of FDS
-                    </h3>
-                    <dl class="mb-4">
-                        <dt class="text-md font-medium">Heng Naret, PhD</dt>
-                        <dt class="text-gray-600">
-                            <b>Tel:</b> (855)12 830 386
-                        </dt>
-                        <dt class="text-gray-600">
-                            <b>Email:</b>
-                            <a href="mailto:heng.naret@email.kh"
-                                class="text-blue-600 hover:underline">heng.naret@email.kh</a>
-                        </dt>
-                    </dl>
-                    <dl>
-                        <dt class="text-md font-medium">
-                            Seak Sophat, PhD
-                        </dt>
-                        <dt class="text-gray-600">
-                            <b>Tel:</b> (855)16 506 888
-                        </dt>
-                        <dt class="text-gray-600">
-                            <b>Email:</b>
-                            <a href="mailto:seak.sophat@email.kh"
-                                class="text-blue-600 hover:underline">seak.sophat@email.kh</a>
-                        </dt>
-                    </dl>
-                </div>
             </div>
+
         </div>
 
         <!-- End Right Section -->
-        </div>
+
         <!-- End Main Content -->
     </section>
 @endsection
