@@ -57,77 +57,84 @@
 
         <!-- Start Main Content -->
         <div class="p-2 max-w-7xl mx-auto grid grid-cols-12 gap-4">
-            <div class="col-span-12 lg:col-span-3">
-                <div class="cursor-pointer border rounded-md pl-8 py-4 pr-2">
-                    <ul class="space-y-3">
+            <div class="col-span-12 lg:col-span-3  ">
+                <div class="cursor-pointer   border-2 border-t-[#15803d] rounded-md pl-8 py-4 pr-2">
+                    <ul class="space-y-3 ">
                         <!-- item1 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
-                            <a href="#"> Message From Dean </a>
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="#">Message from the Dean</a>
                         </li>
                         <!-- item1 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="#"> Vision
                             </a>
                         </li>
                         <!-- item2 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="#"> Mission
                             </a>
                         </li>
+
                         <!-- item3 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
-                            <a href="vision.html">Academic program </a>
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="{{ url('/academic_program') }}">Academic programs </a>
                         </li>
-                        <!-- item4 -->
-                        <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
-                            <a href="#">Admission
-                            </a>
-                        </li>
+
                         <!-- item5 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
-                            <a href="#">Department </a>
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="{{ url('/department') }}">Departments </a>
+                        </li>
+
+                        <!-- item5 -->
+                        <li
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="{{ url('/facilities') }}">Facilities </a>
                         </li>
                         <!-- item6 -->
                         <li
-                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                             <a href="{{ url('/profile') }}">Faculty Profile</a>
                         </li>
                         <!-- item7 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
-                            <a href="">Resource and Laboratory
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="">Current Research
                             </a>
                         </li>
                         <!-- item8 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
-                            <a href="#">
-                                Project
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="{{ url('/publications') }}">
+                                Publications
                             </a>
                         </li>
+
                         <!-- item9 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
-                            <a href="#">Publication
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="#">Partnerships
                             </a>
                         </li>
 
                         <!-- item10 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200  gap-3 list-disc">
-                            <a href="#">Students life
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="#">News and Updates
                             </a>
+                        </li>
+                        <!-- item3 -->
+                        <li
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="#">Contact Us</a>
                         </li>
                     </ul>
                 </div>
             </div>
-
             <!-- Start Middle section -->
             <div class="col-span-12 lg:col-span-6 border rounded-md">
                 <!-- Blog Article -->
@@ -139,6 +146,8 @@
                                 <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
                                     Faculty Profile
                                 </h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat modi animi dolor dicta
+                                    quis commodi iure, autem inventore ad reiciendis?</p>
                             </div>
 
                             {{-- Faculty profile --}}

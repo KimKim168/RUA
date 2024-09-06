@@ -99,8 +99,8 @@
                             class="object-contain w-20 rounded-md  relative">
                     </a>
                     <a class="grid  absolute left-[6rem] top-16  text-nowrap" href="{{ url('/') }}">
-                        <h1 class="text-[12px]   font-moul">សាកលវិទ្យាល័យភូមិន្ទកសិកម្ម</h1>
-                        <h2 class="text-[12px]   font-poppins">Royal University of Agriculture </h2>
+                        <h1 class="text-[12px] font-moul">សាកលវិទ្យាល័យភូមិន្ទកសិកម្ម</h1>
+                        <h2 class="text-[12px] font-poppins">Royal University of Agriculture </h2>
                     </a>
                 </div>
 
@@ -218,14 +218,14 @@
                                                 <ul class="py-2 text-sm text-gray-700 dark:text-gray-200 border-none"
                                                     aria-labelledby="manageDropdownButton">
                                                     <li>
-                                                        <a href="{{ url('/organizationchart') }}"
+                                                        <a href="{{ url('/chart') }}"
                                                             class="block px-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">University
                                                             organization chart
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <div class="flex">
-                                                            <a href="#"
+                                                            <a href="{{ url('/management_team') }}"
                                                                 class="flex-1 pl-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Management
                                                                 team
                                                             </a>
@@ -726,9 +726,8 @@
                     <div class="mt-6 lg:max-w-sm ">
                         <div class=" no-tailwind">
 
-                            <p class="">Royal University of Agriculture (RUA) address: Sangkat/Khan
-                                Dangkor, Phnom Penh, Cambodia
-                                , P.O. Box 2696
+                            <p class="">Address: Royal University of Agriculture, Sangkat/Khan Dangkor, Phnom
+                                Penh, Cambodia.
                             </p>
                         </div>
                     </div>
@@ -746,11 +745,8 @@
                         <ul class="mb-8  dark:text-gray-400">
                             <li class="mb-4 space-y-2">
 
-                                <p>(855) 17 584 150/ 77 396 864</p>
-
-                                <p>info@rua.edu.kh</p>
-                                <p>Messenger</p>
-
+                                <p>Tel: (855) 17 584 150 / 77 396 864</p>
+                                <p>Email: info@rua.edu.kh</p>
                             </li>
                         </ul>
                     </div>

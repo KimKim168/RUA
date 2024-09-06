@@ -1,6 +1,6 @@
 @extends('layouts.client')
 @section('content')
-    <section class="" style="">
+    <section class="font-poppins" style="">
         <!-- Start Breadcrumbs -->
         <section class="max-w-7xl mx-auto my-4 border-2 border-x-0 border-t-0 py-3" aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
@@ -41,13 +41,11 @@
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="m1 9 4-4-4-4" />
                         </svg>
-                        <a href="#"
-                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
-                            Department
+                        <a href="{{ url('/publications') }}"
+                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Publications
                         </a>
                     </div>
                 </li>
-
             </ol>
         </section>
         <!-- End Breadcrumbs -->
@@ -60,27 +58,39 @@
                     <ul class="space-y-3 ">
                         <!-- item1 -->
                         <li
-                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="{{ url('/sub_department') }}"> Veterinary Epidemiology and Public Health</a>
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="#">Research publications</a>
                         </li>
                         <!-- item1 -->
                         <li
                             class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="#">Veterinary Diagnosis Medicine
+                            <a href="#"> Reports
                             </a>
                         </li>
                         <!-- item2 -->
                         <li
                             class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="#"> Veterinary Clinical Science
-
+                            <a href="#"> Text books
                             </a>
                         </li>
                         <!-- item3 -->
+                        {{-- <li
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="{{ url('/foundation_year') }}">Foundation Year</a>
+                        </li> --}}
+                        <!-- item4 -->
+
+                        <!-- item3 -->
                         <li
                             class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="vision.html">Veterinary Pharmacy </a>
+                            <a href="#">Fact sheets</a>
                         </li>
+                        <li
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="#">Videos</a>
+                        </li>
+
+
                     </ul>
                 </div>
             </div>
@@ -95,25 +105,11 @@
                         <div class="space-y-5 md:space-y-8">
                             <div class="space-y-3">
                                 <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
-                                    Department
+                                    Publications
                                 </h2>
                             </div>
 
-                            <figure class="border-2">
-                                <img class="w-full object-cover"
-                                    src="{{ asset('assets/New Image/photo_2024-06-27_14-02-58 (11).jpg') }}"
-                                    alt="Image Description" />
-                            </figure>
 
-                            <p class="text-md text-gray-800 dark:text-neutral-200 text-justify">
-                                As we've grown, we've seen how Preline has
-                                helped companies such as Spotify, Microsoft,
-                                Airbnb, Facebook, and Intercom bring their
-                                designers closer together to create amazing
-                                things. We've also learned that when the culture
-                                of sharing is brought in earlier, the better
-                                teams adapt and communicate with one another.
-                            </p>
                         </div>
                         <!-- End Content -->
                     </div>

@@ -1,6 +1,6 @@
 @extends('layouts.client')
 @section('content')
-    <section class="" style="">
+    <section class="font-poppins" style="">
         <!-- Start Breadcrumbs -->
         <section class="max-w-7xl mx-auto my-4 border-2 border-x-0 border-t-0 py-3" aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
@@ -43,7 +43,7 @@
                         </svg>
                         <a href="#"
                             class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
-                            Department
+                            Academic program
                         </a>
                     </div>
                 </li>
@@ -61,26 +61,22 @@
                         <!-- item1 -->
                         <li
                             class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="{{ url('/sub_department') }}"> Veterinary Epidemiology and Public Health</a>
+                            <a href="{{ url('/sub_medicine_of_academic_Program') }}"> Bachelor of Science in Veterinary
+                                Medicine </a>
                         </li>
                         <!-- item1 -->
                         <li
                             class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="#">Veterinary Diagnosis Medicine
+                            <a href="#"> Doctor of Veterinary Medicine
                             </a>
                         </li>
                         <!-- item2 -->
                         <li
                             class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="#"> Veterinary Clinical Science
-
+                            <a href="#"> PhD in Veterinary Medicine
                             </a>
                         </li>
-                        <!-- item3 -->
-                        <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="vision.html">Veterinary Pharmacy </a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -95,15 +91,15 @@
                         <div class="space-y-5 md:space-y-8">
                             <div class="space-y-3">
                                 <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
-                                    Department
+                                    Academic program
                                 </h2>
                             </div>
 
-                            <figure class="border-2">
+                            {{-- <figure class="border-2">
                                 <img class="w-full object-cover"
-                                    src="{{ asset('assets/New Image/photo_2024-06-27_14-02-58 (11).jpg') }}"
+                                    src="https://images.unsplash.com/photo-1670272505340-d906d8d77d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
                                     alt="Image Description" />
-                            </figure>
+                            </figure> --}}
 
                             <p class="text-md text-gray-800 dark:text-neutral-200 text-justify">
                                 As we've grown, we've seen how Preline has

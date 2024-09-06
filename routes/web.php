@@ -27,9 +27,9 @@ Route::get('/profile', function () {
 Route::get('/vision', function () {
     return view('client.vision');
 })->name('client.vision');
-Route::get('/organizationchart', function () {
-    return view('client.organizationchart');
-})->name('client.organizationchart');
+Route::get('/management_team', function () {
+    return view('client.management_team');
+})->name('client.management_team');
 Route::get('/allfaculty', function () {
     return view('client.allfaculty');
 })->name('client.allfaculty');
@@ -121,3 +121,43 @@ Route::get('/foundation_year', function () {
 Route::get('/curriculum_faculty', function () {
     return view('client.curriculum_faculty');
 })->name('client.curriculum_faculty');
+
+Route::get('/news_update', function () {
+    return view('client.news_update');
+})->name('client.news_update');
+
+Route::get('/academic_program', function () {
+    return view('client.academic_program');
+})->name('client.academic_program');
+
+Route::get('/chart', function () {
+    return view('client.chart');
+})->name('client.chart');
+
+Route::get('/sub_department', function () {
+    return view('client.sub_department');
+})->name('client.sub_department');
+
+Route::get('/sub_medicine_of_academic_Program', function () {
+    return view('client.sub_medicine_of_academic_Program');
+})->name('client.sub_medicine_of_academic_Program');
+
+Route::get('/management_team_department', function () {
+    return view('client.management_team_department');
+})->name('client.management_team_department');
+
+Route::get('/facilities', function () {
+    return view('client.facilities');
+})->name('client.facilities');
+
+Route::get('/publications', function () {
+    return view('client.publications');
+})->name('client.publications');
+
+Route::get('/partnerships', function () {
+    return view('client.partnerships');
+})->name('client.partnerships');
+
+Route::get('/contact_us_in_faculty', function () {
+    return view('client.contact_us_in_faculty');
+})->name('client.contact_us_in_faculty');

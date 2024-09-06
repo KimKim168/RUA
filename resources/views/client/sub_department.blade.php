@@ -41,13 +41,25 @@
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="m1 9 4-4-4-4" />
                         </svg>
-                        <a href="#"
+                        <a href="{{ url('/department') }}"
                             class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
                             Department
                         </a>
                     </div>
                 </li>
-
+                <li>
+                    <div class="flex items-center">
+                        <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 9 4-4-4-4" />
+                        </svg>
+                        <a href="#"
+                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
+                            Veterinary Epidemiology and Public Health
+                        </a>
+                    </div>
+                </li>
             </ol>
         </section>
         <!-- End Breadcrumbs -->
@@ -60,26 +72,29 @@
                     <ul class="space-y-3 ">
                         <!-- item1 -->
                         <li
-                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="{{ url('/sub_department') }}"> Veterinary Epidemiology and Public Health</a>
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="#"> Description</a>
                         </li>
                         <!-- item1 -->
                         <li
                             class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="#">Veterinary Diagnosis Medicine
+                            <a href="{{ url('/management_team_department') }}">Management Team
                             </a>
                         </li>
                         <!-- item2 -->
                         <li
                             class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="#"> Veterinary Clinical Science
-
-                            </a>
+                            <a href="#"> Programs</a>
                         </li>
                         <!-- item3 -->
                         <li
                             class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="vision.html">Veterinary Pharmacy </a>
+                            <a href="vision.html">Trainings</a>
+                        </li>
+                        <!-- item3 -->
+                        <li
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="vision.html">Activities</a>
                         </li>
                     </ul>
                 </div>
@@ -95,7 +110,7 @@
                         <div class="space-y-5 md:space-y-8">
                             <div class="space-y-3">
                                 <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
-                                    Department
+                                    Description
                                 </h2>
                             </div>
 

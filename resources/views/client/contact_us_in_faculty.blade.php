@@ -1,6 +1,6 @@
 @extends('layouts.client')
 @section('content')
-    <section class="" style="">
+    <section class="font-poppins" style="">
         <!-- Start Breadcrumbs -->
         <section class="max-w-7xl mx-auto my-4 border-2 border-x-0 border-t-0 py-3" aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
@@ -41,13 +41,12 @@
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="m1 9 4-4-4-4" />
                         </svg>
-                        <a href="#"
+                        <a href="{{ url('/contact_us_in_faculty') }}"
                             class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
-                            Department
+                            Contact Us
                         </a>
                     </div>
                 </li>
-
             </ol>
         </section>
         <!-- End Breadcrumbs -->
@@ -60,26 +59,75 @@
                     <ul class="space-y-3 ">
                         <!-- item1 -->
                         <li
-                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="{{ url('/sub_department') }}"> Veterinary Epidemiology and Public Health</a>
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="#">Message from the Dean</a>
                         </li>
                         <!-- item1 -->
                         <li
                             class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="#">Veterinary Diagnosis Medicine
+                            <a href="#"> Vision
                             </a>
                         </li>
                         <!-- item2 -->
                         <li
                             class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="#"> Veterinary Clinical Science
+                            <a href="#"> Mission
+                            </a>
+                        </li>
 
+                        <!-- item3 -->
+                        <li
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="{{ url('/academic_program') }}">Academic programs </a>
+                        </li>
+
+                        <!-- item5 -->
+                        <li
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="{{ url('/department') }}">Departments </a>
+                        </li>
+
+                        <!-- item5 -->
+                        <li
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="{{ url('/facilities') }}">Facilities </a>
+                        </li>
+                        <!-- item6 -->
+                        <li
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="{{ url('/profile') }}">Faculty Profile</a>
+                        </li>
+                        <!-- item7 -->
+                        <li
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="">Current Research
+                            </a>
+                        </li>
+                        <!-- item8 -->
+                        <li
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="{{ url('/publications') }}">
+                                Publications
+                            </a>
+                        </li>
+
+                        <!-- item9 -->
+                        <li
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="{{ url('/partnerships') }}">Partnerships
+                            </a>
+                        </li>
+
+                        <!-- item10 -->
+                        <li
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="#">News and Updates
                             </a>
                         </li>
                         <!-- item3 -->
                         <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="vision.html">Veterinary Pharmacy </a>
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="{{ url('/contact_us_in_faculty') }}">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -95,25 +143,12 @@
                         <div class="space-y-5 md:space-y-8">
                             <div class="space-y-3">
                                 <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
-                                    Department
+                                    Contact Us
                                 </h2>
                             </div>
+                            <div class="">
 
-                            <figure class="border-2">
-                                <img class="w-full object-cover"
-                                    src="{{ asset('assets/New Image/photo_2024-06-27_14-02-58 (11).jpg') }}"
-                                    alt="Image Description" />
-                            </figure>
-
-                            <p class="text-md text-gray-800 dark:text-neutral-200 text-justify">
-                                As we've grown, we've seen how Preline has
-                                helped companies such as Spotify, Microsoft,
-                                Airbnb, Facebook, and Intercom bring their
-                                designers closer together to create amazing
-                                things. We've also learned that when the culture
-                                of sharing is brought in earlier, the better
-                                teams adapt and communicate with one another.
-                            </p>
+                            </div>
                         </div>
                         <!-- End Content -->
                     </div>

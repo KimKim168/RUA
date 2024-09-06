@@ -34,6 +34,19 @@
                         </a>
                     </div>
                 </li>
+                <li>
+                    <div class="flex items-center">
+                        <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 9 4-4-4-4" />
+                        </svg>
+                        <a href="{{ url('/partnerships') }}"
+                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
+                            Partnerships
+                        </a>
+                    </div>
+                </li>
             </ol>
         </section>
         <!-- End Breadcrumbs -->
@@ -130,25 +143,63 @@
                         <div class="space-y-5 md:space-y-8">
                             <div class="space-y-3">
                                 <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
-                                    Faculty of Veterinary Medicine
+                                    Partnerships
                                 </h2>
                             </div>
+                            <div class="">
+                                <div class="max-w-screen-xl  mx-auto">
+                                    <div class="max-w-screen-xl mx-auto grid grid-cols-2 lg:grid-cols-2 gap-4 ">
+                                        <a mx-autoa href="#"
+                                            class="block px-3 py-4 text-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600 hover:shadow-lg dark:hover:shadow-lg-light"><img
+                                                src="https://alphalib.org/public/images/1796656555446101.png"
+                                                class="w-16 h-16 object-contain mx-auto" />
+                                            <h3 class="font-semibold text-sm text-gray-900 dark:text-white mt-3.5">
+                                                Pannsatra University (PUC)
+                                            </h3>
+                                        </a>
+                                        <a href="#"
+                                            class="block px-3 py-4 text-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600 hover:shadow-lg dark:hover:shadow-lg-light"><img
+                                                src="https://alphalib.org/public//images/1796656680822370.png"
+                                                class="w-16 h-16 object-contain mx-auto" />
+                                            <h3 class="font-semibold text-sm text-gray-900 dark:text-white mt-3.5">
+                                                Royal University of Law and Economics (RULE)
+                                            </h3>
+                                        </a><a href="https://github.com/themesberg/flowbite-angular"
+                                            class="block px-3 py-4 text-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600 hover:shadow-lg dark:hover:shadow-lg-light"><img
+                                                src="https://alphalib.org/public//images/1796656779500885.png"
+                                                class="w-16 h-16 object-contain mx-auto" />
+                                            <h3 class="font-semibold text-sm text-gray-900 dark:text-white mt-3.5">
+                                                Vannda Institute
+                                            </h3>
+                                        </a>
 
-                            <figure class="border-2">
-                                <img class="w-full object-cover"
-                                    src="{{ asset('assets/New Image/photo_2024-06-26_10-27-17 (2).jpg') }}"
-                                    alt="Image Description" />
-                            </figure>
-
-                            <p class="text-md text-gray-800 dark:text-neutral-200 text-justify">
-                                As we've grown, we've seen how Preline has
-                                helped companies such as Spotify, Microsoft,
-                                Airbnb, Facebook, and Intercom bring their
-                                designers closer together to create amazing
-                                things. We've also learned that when the culture
-                                of sharing is brought in earlier, the better
-                                teams adapt and communicate with one another.
-                            </p>
+                                        <a href="https://www.flowbite-react.com"
+                                            class="block px-3 py-4 text-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600 hover:shadow-lg dark:hover:shadow-lg-light"><img
+                                                src="https://alphalib.org/public//images/1796656876377577.png"
+                                                class="w-16 h-16 object-contain mx-auto" />
+                                            <h3 class="font-semibold text-sm text-gray-900 dark:text-white mt-3.5">
+                                                Senate library of Cambodia
+                                            </h3>
+                                        </a>
+                                        <a href="#"
+                                            class="block px-3 py-4 text-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600 hover:shadow-lg dark:hover:shadow-lg-light"><img
+                                                src="https://alphalib.org/public//images/1796656944928864.jpg"
+                                                class="w-16 h-16 object-contain mx-auto" />
+                                            <h3 class="font-semibold text-sm text-gray-900 dark:text-white mt-3.5">
+                                                Ministry Of Environment
+                                            </h3>
+                                        </a>
+                                        <a href="#"
+                                            class="block px-3 py-4 text-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600 hover:shadow-lg dark:hover:shadow-lg-light"><img
+                                                src="https://alphalib.org/public//images/1796656998944735.jpeg"
+                                                class="w-16 h-16 object-contain mx-auto" />
+                                            <h3 class="font-semibold text-sm text-gray-900 dark:text-white mt-3.5">
+                                                Ministry Of Environment
+                                            </h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- End Content -->
                     </div>
