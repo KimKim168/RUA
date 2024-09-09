@@ -140,14 +140,33 @@
                 <div class="max-w-3xl px-4 pt-6 pb-12 sm:px-6 lg:px-8 mx-auto">
                     <div class="max-w-2xl">
                         <!-- Content -->
-                        <div class="space-y-5 md:space-y-8">
-                            <div class="space-y-3">
+                        <div class="space-y-5 md:space-y-5">
+                            <div class="">
                                 <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
                                     Contact Us
                                 </h2>
                             </div>
                             <div class="">
+                                <dl class="">
+                                    <dt class="text-gray-600">
+                                        <b>Telephone:</b> (855)12 830 386
+                                    </dt>
+                                    <dt class="text-gray-600">
+                                        <b>Email:</b>
+                                        <a href="mailto:heng.naret@email.kh"
+                                            class="text-blue-600 hover:underline">heng.naret@email.kh</a>
+                                    </dt>
+                                </dl>
+                                <!-- Social Media Section -->
+                                <dl>
+                                    <dt class="text-gray-600 ">
+                                        <b> Link Social Media: </b>
+                                        <a href="" class="hover:underline mx-3">Telegram</a>,
+                                        <a href="" class="hover:underline mx-3 ">Facebook</a>,
+                                        <a href="" class="hover:underline mx-3">YouTube</a>
+                                    </dt>
 
+                                </dl>
                             </div>
                         </div>
                         <!-- End Content -->

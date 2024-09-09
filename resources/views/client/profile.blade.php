@@ -146,8 +146,8 @@
                                 <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
                                     Faculty Profile
                                 </h2>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat modi animi dolor dicta
-                                    quis commodi iure, autem inventore ad reiciendis?</p>
+                                {{-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat modi animi dolor dicta
+                                    quis commodi iure, autem inventore ad reiciendis?</p> --}}
                             </div>
 
                             {{-- Faculty profile --}}
@@ -160,7 +160,8 @@
                                                 class="flex items-center justify-between w-full p-3 font-medium rtl:text-right  border border-gray-200  focus:ring-gray-200  hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
                                                 data-accordion-target="#accordion-collapse-body-1" aria-expanded="true"
                                                 aria-controls="accordion-collapse-body-3">
-                                                <span>KANG KROESNA, PHD (Faculty of Veterinary Medicine)</span>
+                                                <span>Dr. John Smith (Professor of Veterinary Surgery, Faculty of Veterinary
+                                                    Medicine)</span>
                                                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0"
                                                     aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                                                     viewBox="0 0 10 6">
@@ -175,62 +176,16 @@
                                                 <div class="relative overflow-x-auto">
                                                     <div class="block ">
                                                         <div class="grid grid-cols-12 gap-8">
-                                                            <div class="col-span-5 mb-5 ">
+                                                            <div class="col-span-4 mb-5 ">
                                                                 <img src="{{ asset('assets/images/teacher1.png') }}"
-                                                                    class=" w-full h-full aspect-square" />
+                                                                    class=" w-[200px] object-contain aspect-square" />
                                                             </div>
-                                                            <div class=" col-span-7 max-w-sm text-sm space-y-4">
+                                                            <div class=" col-span-8 max-w-sm text-sm space-y-4">
                                                                 <div class="flex flex-col gap-2">
-                                                                    <div class="flex nowrap">
-                                                                        <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm  dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
-                                                                            Name
-                                                                        </p>
-                                                                        <p
-                                                                            class="text-sm text-gray-600 dark:text-gray-200">
-                                                                            កង ក្រឹស្នា(KANG KROESNA)
-                                                                        </p>
-                                                                    </div>
-
 
                                                                     <div class="flex nowrap">
                                                                         <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
-                                                                            Gender
-                                                                        </p>
-                                                                        <p
-                                                                            class="text-sm text-gray-600 dark:text-gray-200">
-                                                                            Female
-                                                                        </p>
-                                                                    </div>
-
-
-                                                                    <div class="flex nowrap">
-                                                                        <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
-                                                                            Phone
-                                                                        </p>
-                                                                        <p
-                                                                            class="text-sm text-gray-600 dark:text-gray-200">
-                                                                            016 967 679
-                                                                        </p>
-                                                                    </div>
-                                                                    <div class="flex nowrap">
-                                                                        <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
-                                                                            Email
-                                                                        </p>
-                                                                        <p
-                                                                            class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
-                                                                            <span
-                                                                                class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
-                                                                                kkroesna@rua.edu.kh
-                                                                            </span>
-                                                                        </p>
-                                                                    </div>
-                                                                    <div class="flex nowrap">
-                                                                        <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            class="w-[110px] uppercase tracking-wide text-xs text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
                                                                             Position
                                                                         </p>
                                                                         <p
@@ -243,17 +198,75 @@
                                                                     </div>
                                                                     <div class="flex nowrap">
                                                                         <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
-                                                                            Education
+                                                                            class="w-[110px] uppercase tracking-wide text-xs text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            Professional
                                                                         </p>
                                                                         <p
                                                                             class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
                                                                             <span
                                                                                 class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
-                                                                                PHD
+                                                                                Research Scientist, Tech Innovations Lab
                                                                             </span>
                                                                         </p>
                                                                     </div>
+                                                                    <div class="flex nowrap">
+                                                                        <p
+                                                                            class="w-[110px] uppercase tracking-wide text-xs text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            Awards / Appreciations
+                                                                        </p>
+                                                                        <p
+                                                                            class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
+                                                                            <span
+                                                                                class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
+                                                                                Excellence in Teaching Award, XYZ
+                                                                                University, 2018
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="flex nowrap">
+                                                                        <p
+                                                                            class="w-[110px] uppercase tracking-wide text-xs text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            Research Interests
+                                                                        </p>
+                                                                        <p
+                                                                            class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
+                                                                            <span
+                                                                                class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
+                                                                                Machine Learning, Natural Language
+                                                                                Processing, Big Data Analytics
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="flex nowrap">
+                                                                        <p
+                                                                            class="w-[110px] uppercase tracking-wide text-xs text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            Academic Studies
+                                                                        </p>
+                                                                        <p
+                                                                            class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
+                                                                            <span
+                                                                                class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
+                                                                                B.V.Sc. (Bachelor of Veterinary Science),
+                                                                                National University of Veterinary Medicine,
+                                                                                2004
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+
+                                                                    <div class="flex nowrap">
+                                                                        <p
+                                                                            class="w-[110px] uppercase tracking-wide text-xs text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            Contact
+                                                                        </p>
+                                                                        <p
+                                                                            class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
+                                                                            <span
+                                                                                class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
+                                                                                kkroesna@rua.edu.kh, Tel: 016 967 679
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -273,9 +286,10 @@
                                                 class="flex items-center justify-between w-full p-3 font-medium rtl:text-right text-gray-500 border border-gray-200  focus:ring-gray-200  hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
                                                 data-accordion-target="#accordion-collapse-body-2" aria-expanded="true"
                                                 aria-controls="accordion-collapse-body-3">
-                                                <span>CHEA BUNTHON, Master (Faculty of Veterinary Medicine)</span>
+                                                <span>Dr. John Smith (Professor of Veterinary Surgery, Faculty of Veterinary
+                                                    Medicine)</span>
                                                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0"
-                                                    aria-hidden="fale" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                                                     viewBox="0 0 10 6">
                                                     <path stroke="currentColor" stroke-linecap="round"
                                                         stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
@@ -289,89 +303,97 @@
                                                 <div class="relative overflow-x-auto">
                                                     <div class="block ">
                                                         <div class="grid grid-cols-12 gap-8">
-                                                            <div class="col-span-5 mb-5 ">
+                                                            <div class="col-span-4 mb-5 ">
                                                                 <img src="{{ asset('assets/images/teacher2.png') }}"
                                                                     class=" w-full h-full aspect-square" />
                                                             </div>
-                                                            <div class=" col-span-7 max-w-sm text-sm space-y-4">
+                                                            <div class=" col-span-8 max-w-sm text-sm space-y-4">
                                                                 <div class="flex flex-col gap-2">
-                                                                    <div class="flex nowrap">
-                                                                        <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
-                                                                            Name
-                                                                        </p>
-                                                                        <p
-                                                                            class="text-sm text-gray-600 dark:text-gray-200">
-                                                                            ជា ប៊ុនថុន (CHEA BUNTHON)
-
-
-                                                                        </p>
-                                                                    </div>
-
 
                                                                     <div class="flex nowrap">
                                                                         <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
-                                                                            Gender
-                                                                        </p>
-                                                                        <p
-                                                                            class="text-sm text-gray-600 dark:text-gray-200">
-                                                                            Male
-                                                                        </p>
-                                                                    </div>
-
-
-
-
-                                                                    <div class="flex nowrap">
-                                                                        <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
-                                                                            Phone
-                                                                        </p>
-                                                                        <p
-                                                                            class="text-sm text-gray-600 dark:text-gray-200">
-                                                                            012 434 985
-                                                                        </p>
-                                                                    </div>
-                                                                    <div class="flex nowrap">
-                                                                        <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
-                                                                            Email
-                                                                        </p>
-                                                                        <p
-                                                                            class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
-                                                                            <span
-                                                                                class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
-                                                                                cheabunthon@rua.edu.kh
-                                                                            </span>
-                                                                        </p>
-                                                                    </div>
-                                                                    <div class="flex nowrap">
-                                                                        <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            class="w-[110px] uppercase tracking-wide text-xs text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
                                                                             Position
                                                                         </p>
                                                                         <p
                                                                             class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
                                                                             <span
                                                                                 class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
-                                                                                Vice-Dean
+                                                                                Dean
                                                                             </span>
                                                                         </p>
                                                                     </div>
                                                                     <div class="flex nowrap">
                                                                         <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
-                                                                            Education
+                                                                            class="w-[110px] uppercase tracking-wide text-xs text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            Professional
                                                                         </p>
                                                                         <p
                                                                             class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
                                                                             <span
                                                                                 class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
-                                                                                Master
+                                                                                Research Scientist, Tech Innovations Lab
                                                                             </span>
                                                                         </p>
                                                                     </div>
+                                                                    <div class="flex nowrap">
+                                                                        <p
+                                                                            class="w-[110px] uppercase tracking-wide text-xs text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            Awards / Appreciations
+                                                                        </p>
+                                                                        <p
+                                                                            class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
+                                                                            <span
+                                                                                class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
+                                                                                Excellence in Teaching Award, XYZ
+                                                                                University, 2018
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="flex nowrap">
+                                                                        <p
+                                                                            class="w-[110px] uppercase tracking-wide text-xs text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            Research Interests
+                                                                        </p>
+                                                                        <p
+                                                                            class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
+                                                                            <span
+                                                                                class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
+                                                                                Machine Learning, Natural Language
+                                                                                Processing, Big Data Analytics
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="flex nowrap">
+                                                                        <p
+                                                                            class="w-[110px] uppercase tracking-wide text-xs text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            Academic Studies
+                                                                        </p>
+                                                                        <p
+                                                                            class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
+                                                                            <span
+                                                                                class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
+                                                                                B.V.Sc. (Bachelor of Veterinary Science),
+                                                                                National University of Veterinary Medicine,
+                                                                                2004
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+
+                                                                    <div class="flex nowrap">
+                                                                        <p
+                                                                            class="w-[110px] uppercase tracking-wide text-xs text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            Contact
+                                                                        </p>
+                                                                        <p
+                                                                            class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
+                                                                            <span
+                                                                                class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
+                                                                                kkroesna@rua.edu.kh, Tel: 016 967 679
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -390,9 +412,12 @@
                                                 class="flex items-center justify-between w-full p-3 font-medium rtl:text-right text-gray-500 border border-gray-200  focus:ring-gray-200  hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
                                                 data-accordion-target="#accordion-collapse-body-3" aria-expanded="true"
                                                 aria-controls="accordion-collapse-body-3">
-                                                <span>THENG KOUCH, PHD (Faculty of Veterinary Medicine)</span>
+
+                                                <span>Dr. Theng Kouch (Professor of Veterinary Surgery, Faculty of
+                                                    Veterinary
+                                                    Medicine)</span>
                                                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0"
-                                                    aria-hidden="fale" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                                                     viewBox="0 0 10 6">
                                                     <path stroke="currentColor" stroke-linecap="round"
                                                         stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
@@ -406,89 +431,97 @@
                                                 <div class="relative overflow-x-auto">
                                                     <div class="block ">
                                                         <div class="grid grid-cols-12 gap-8">
-                                                            <div class="col-span-5 mb-5 ">
+                                                            <div class="col-span-4 mb-5 ">
                                                                 <img src="{{ asset('assets/images/teacher3.png') }}"
                                                                     class=" w-full h-full aspect-square" />
                                                             </div>
-                                                            <div class=" col-span-7 max-w-sm text-sm space-y-4">
+                                                            <div class=" col-span-8 max-w-sm text-sm space-y-4">
                                                                 <div class="flex flex-col gap-2">
-                                                                    <div class="flex nowrap">
-                                                                        <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
-                                                                            Name
-                                                                        </p>
-                                                                        <p
-                                                                            class="text-sm text-gray-600 dark:text-gray-200">
-                                                                            ធឹង គុច (THENG KOUCH)
-
-
-                                                                        </p>
-                                                                    </div>
-
 
                                                                     <div class="flex nowrap">
                                                                         <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
-                                                                            Gender
-                                                                        </p>
-                                                                        <p
-                                                                            class="text-sm text-gray-600 dark:text-gray-200">
-                                                                            Male
-                                                                        </p>
-                                                                    </div>
-
-
-
-
-                                                                    <div class="flex nowrap">
-                                                                        <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
-                                                                            Phone
-                                                                        </p>
-                                                                        <p
-                                                                            class="text-sm text-gray-600 dark:text-gray-200">
-                                                                            097 777 93 81
-                                                                        </p>
-                                                                    </div>
-                                                                    <div class="flex nowrap">
-                                                                        <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
-                                                                            Email
-                                                                        </p>
-                                                                        <p
-                                                                            class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
-                                                                            <span
-                                                                                class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
-                                                                                thengkouch@rua.edu.kh
-                                                                            </span>
-                                                                        </p>
-                                                                    </div>
-                                                                    <div class="flex nowrap">
-                                                                        <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            class="w-[110px] uppercase tracking-wide text-xs text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
                                                                             Position
                                                                         </p>
                                                                         <p
                                                                             class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
                                                                             <span
                                                                                 class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
-                                                                                Vice-Dean
+                                                                                Dean
                                                                             </span>
                                                                         </p>
                                                                     </div>
                                                                     <div class="flex nowrap">
                                                                         <p
-                                                                            class="w-[110px] uppercase tracking-wide text-sm text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
-                                                                            Education
+                                                                            class="w-[110px] uppercase tracking-wide text-xs text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            Professional
                                                                         </p>
                                                                         <p
                                                                             class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
                                                                             <span
                                                                                 class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
-                                                                                PHD
+                                                                                Research Scientist, Tech Innovations Lab
                                                                             </span>
                                                                         </p>
                                                                     </div>
+                                                                    <div class="flex nowrap">
+                                                                        <p
+                                                                            class="w-[110px] uppercase tracking-wide text-xs text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            Awards / Appreciations
+                                                                        </p>
+                                                                        <p
+                                                                            class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
+                                                                            <span
+                                                                                class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
+                                                                                Excellence in Teaching Award, XYZ
+                                                                                University, 2018
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="flex nowrap">
+                                                                        <p
+                                                                            class="w-[110px] uppercase tracking-wide text-xs text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            Research Interests
+                                                                        </p>
+                                                                        <p
+                                                                            class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
+                                                                            <span
+                                                                                class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
+                                                                                Machine Learning, Natural Language
+                                                                                Processing, Big Data Analytics
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="flex nowrap">
+                                                                        <p
+                                                                            class="w-[110px] uppercase tracking-wide text-xs text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            Academic Studies
+                                                                        </p>
+                                                                        <p
+                                                                            class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
+                                                                            <span
+                                                                                class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
+                                                                                B.V.Sc. (Bachelor of Veterinary Science),
+                                                                                National University of Veterinary Medicine,
+                                                                                2004
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+
+                                                                    <div class="flex nowrap">
+                                                                        <p
+                                                                            class="w-[110px] uppercase tracking-wide text-xs text-gray-500 dark:text-gray-300 font-semibold border-r border-gray-600 dark:border-gray-300 pr-5 mr-5 flex-shrink-0">
+                                                                            Contact
+                                                                        </p>
+                                                                        <p
+                                                                            class="space-x-1 space-y-1 text-sm text-gray-600 dark:text-gray-200">
+                                                                            <span
+                                                                                class="bg-blue-100 text-blue-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap capitalize">
+                                                                                kkroesna@rua.edu.kh, Tel: 016 967 679
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+
                                                                 </div>
                                                             </div>
                                                         </div>
