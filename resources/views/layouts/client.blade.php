@@ -176,14 +176,7 @@
                                                             </button>
                                                         </div>
                                                     </li>
-                                                    <li>
-                                                        <div class="flex">
-                                                            <a href="#"
-                                                                class="flex-1 pl-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Mission
-                                                            </a>
-                                                            </button>
-                                                        </div>
-                                                    </li>
+
                                                     <li>
                                                         <div class="flex">
                                                             <a href="#"
