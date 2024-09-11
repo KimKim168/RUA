@@ -39,7 +39,7 @@
         </section>
         <!-- End Breadcrumbs -->
         <div
-            class="relative overflow-x-auto shadow-md sm:rounded-lg max-w-screen-xl border-2 border-t-[#15803d] mx-auto mt-10">
+            class="relative col-span-12 lg:col-span-12 overflow-x-auto shadow-md sm:rounded-lg max-w-screen-xl border-2 border-t-[#15803d] mx-auto ">
             <table
                 class=" text-sm border-separate border-spacing-2 text-left w-full  rtl:text-right text-gray-500 dark:text-gray-400">
                 <thead class="border  text-xs text-white uppercase bg-[#15803d] dark:bg-gray-700 dark:text-gray-400">
@@ -54,18 +54,19 @@
                         <th scope="col" class="px-6 py-3">
                             Position
                         </th>
-                        <th scope="col" class="px-6 py-3">
-                            Education
-                        </th>
+                        {{-- <th scope="col" class="px-6 py-3">
+                        Education
+                    </th> --}}
                         <th scope="col" class="px-6 py-3">
                             Email
                         </th>
-                        <th scope="col" class="px-6 py-3">
-                            Degree
-                        </th>
+                        {{-- <th scope="col" class="px-6 py-3">
+                        Degree
+                    </th> --}}
                     </tr>
                 </thead>
                 <tbody class="">
+
                     <tr class="text-black font-poppins">
                         <th scope="row" class="px-6 py-4 border border-[#15803d]  whitespace-nowrap dark:text-white">
                             <img src="{{ asset('assets/images/teacher2.png') }}" class="h-44 aspect-square object-cover">
@@ -76,18 +77,19 @@
                         <td class="px-6 py-4 border border-[#15803d]">
                             Vice-Dean
                         </td>
-                        <td class="px-6 py-4 border border-[#15803d]">
-                            Master
-                        </td>
+                        {{-- <td class="px-6 py-4 border border-[#15803d]">
+                        Master
+                    </td> --}}
                         <td class="px-6 py-4 border border-[#15803d]">
                             cheabunthon@rua.edu.kh
                         </td>
-                        <td class="px-6 py-4 border border-[#15803d] ">
-                            <a href="{{ asset('assets/New Image/degree.jpg') }}" class="glightbox2" data-gallery="gallery1">
-                                <img class="w-full object-cover" src="{{ asset('assets/New Image/degree.jpg') }}"
-                                    alt="Image Description" />
-                            </a>
-                        </td>
+                        {{-- <td class="px-6 py-4 border border-[#15803d] ">
+                        <a href="{{ asset('assets/New Image/degree.jpg') }}" class="glightbox2"
+                            data-gallery="gallery1">
+                            <img class="w-full object-cover" src="{{ asset('assets/New Image/degree.jpg') }}"
+                                alt="Image Description" />
+                        </a>
+                    </td> --}}
 
                     </tr>
                     <tr class="text-black font-poppins">
@@ -100,18 +102,19 @@
                         <td class="px-6 py-4 border border-[#15803d]">
                             Dean
                         </td>
-                        <td class="px-6 py-4 border border-[#15803d]">
-                            PHD
-                        </td>
+                        {{-- <td class="px-6 py-4 border border-[#15803d]">
+                        PHD
+                    </td> --}}
                         <td class="px-6 py-4 border border-[#15803d]">
                             kkroesna@rua.edu.kh
                         </td>
-                        <td class="px-6 py-4 border border-[#15803d] ">
-                            <a href="{{ asset('assets/New Image/degree.jpg') }}" class="glightbox2" data-gallery="gallery2">
-                                <img class="w-full object-cover" src="{{ asset('assets/New Image/degree.jpg') }}"
-                                    alt="Image Description" />
-                            </a>
-                        </td>
+                        {{-- <td class="px-6 py-4 border border-[#15803d] ">
+                        <a href="{{ asset('assets/New Image/degree.jpg') }}" class="glightbox2"
+                            data-gallery="gallery2">
+                            <img class="w-full object-cover" src="{{ asset('assets/New Image/degree.jpg') }}"
+                                alt="Image Description" />
+                        </a>
+                    </td> --}}
 
                     </tr>
                     <tr class="text-black font-poppins">
@@ -124,18 +127,19 @@
                         <td class="px-6 py-4 border border-[#15803d]">
                             Vice-Dean
                         </td>
-                        <td class="px-6 py-4 border border-[#15803d]">
-                            PHD
-                        </td>
+                        {{-- <td class="px-6 py-4 border border-[#15803d]">
+                        PHD
+                    </td> --}}
                         <td class="px-6 py-4 border border-[#15803d]">
                             thengkouch@rua.edu.kh
                         </td>
-                        <td class="px-6 py-4 border border-[#15803d] ">
-                            <a href="{{ asset('assets/New Image/degree.jpg') }}" class="glightbox2" data-gallery="gallery3">
-                                <img class="w-full object-cover" src="{{ asset('assets/New Image/degree.jpg') }}"
-                                    alt="Image Description" />
-                            </a>
-                        </td>
+                        {{-- <td class="px-6 py-4 border border-[#15803d] ">
+                        <a href="{{ asset('assets/New Image/degree.jpg') }}" class="glightbox2"
+                            data-gallery="gallery3">
+                            <img class="w-full object-cover" src="{{ asset('assets/New Image/degree.jpg') }}"
+                                alt="Image Description" />
+                        </a>
+                    </td> --}}
 
 
                     </tr>
@@ -149,24 +153,23 @@
                         <td class="px-6 py-4 border border-[#15803d]">
                             Dean
                         </td>
-                        <td class="px-6 py-4 border border-[#15803d]">
-                            PHD
-                        </td>
+                        {{-- <td class="px-6 py-4 border border-[#15803d]">
+                        PHD
+                    </td> --}}
                         <td class="px-6 py-4 border border-[#15803d]">
                             kkroesna@rua.edu.kh
                         </td>
-                        <td class="px-6 py-4 border border-[#15803d] ">
-                            <a href="{{ asset('assets/New Image/degree.jpg') }}" class="glightbox2"
-                                data-gallery="gallery4">
-                                <img class="w-full object-cover" src="{{ asset('assets/New Image/degree.jpg') }}"
-                                    alt="Image Description" />
-                            </a>
-                        </td>
+                        {{-- <td class="px-6 py-4 border border-[#15803d] ">
+                        <a href="{{ asset('assets/New Image/degree.jpg') }}" class="glightbox2"
+                            data-gallery="gallery4">
+                            <img class="w-full object-cover" src="{{ asset('assets/New Image/degree.jpg') }}"
+                                alt="Image Description" />
+                        </a>
+                    </td> --}}
 
                     </tr>
                 </tbody>
             </table>
         </div>
-
     </section>
 @endsection

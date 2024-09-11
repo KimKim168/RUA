@@ -161,3 +161,11 @@ Route::get('/partnerships', function () {
 Route::get('/contact_us_in_faculty', function () {
     return view('client.contact_us_in_faculty');
 })->name('client.contact_us_in_faculty');
+
+Route::get('/graduate_program_master', function () {
+    return view('client.graduate_program_master');
+})->name('client.graduate_program_master');
+
+Route::get('/graduate_program_phd', function () {
+    return view('client.graduate_program_phd');
+})->name('client.graduate_program_phd');

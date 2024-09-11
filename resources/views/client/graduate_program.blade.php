@@ -35,59 +35,51 @@
                     <div>
                         <div
                             class="text-center text-xl font-domine mb-3  font-medium border-b-2 border-[#15803d] border-dashed ">
-                            Master Program</div>
+                            <a href="{{ url('/graduate_program_master') }}">Master Program</a>
+                        </div>
                         <ul class="space-y-3   text-sm">
                             <!-- item1 -->
                             <li
                                 class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                                 <a href="#">
+                                    Integrated Management of Agricultural and Rural Development (GIDAR)
                                 </a>
                             </li>
                             <!-- item2 -->
                             <li
                                 class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">
+                                <a href="#">Natural Resources Management (NRM)
+
                                 </a>
                             </li>
                             <!-- item3 -->
                             <li
                                 class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#"></a>
+                                <a href="#">Crop Science (CS)</a>
                             </li>
                             <!-- item1 -->
                             <li
                                 class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">
+                                <a href="#">Animal Science (AS)
                                 </a>
                             </li>
                             <!-- item2 -->
                             <li
                                 class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">
+                                <a href="#">Food Science and Technology (FST)
                                 </a>
                             </li>
                             <!-- item3 -->
                             <li
                                 class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#"></a>
+                                <a href="#">Agricultural Extension (AE)</a>
                             </li>
                             <!-- item1 -->
                             <li
                                 class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">
-                                </a>
+                                <a href="#">International Farm Management (IFM) </a>
                             </li>
-                            <!-- item2 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">
-                                </a>
-                            </li>
-                            <!-- item3 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#"></a>
-                            </li>
+
                         </ul>
                     </div>
                     {{-- End Master Program --}}
@@ -96,59 +88,21 @@
                     <div>
                         <div
                             class="text-center text-xl font-domine mb-3 mt-3 font-medium border-b-2 border-[#15803d] border-dashed ">
-                            PhD Program
+                            <a href="{{ url('/graduate_program_phd') }}">PhD Program</a>
                         </div>
                         <ul class="space-y-3   text-sm">
                             <!-- item1 -->
                             <li
                                 class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                                 <a href="#">
+                                    Agricultural Science (AGS) (More than 25 major fields of study)
                                 </a>
                             </li>
                             <!-- item2 -->
                             <li
                                 class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">
+                                <a href="#">Crop Science (CS)
                                 </a>
-                            </li>
-                            <!-- item3 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#"></a>
-                            </li>
-                            <!-- item1 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">
-                                </a>
-                            </li>
-                            <!-- item2 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">
-                                </a>
-                            </li>
-                            <!-- item3 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#"></a>
-                            </li>
-                            <!-- item1 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">
-                                </a>
-                            </li>
-                            <!-- item2 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">
-                                </a>
-                            </li>
-                            <!-- item3 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#"></a>
                             </li>
 
                         </ul>
@@ -172,10 +126,8 @@
                             </div>
 
                             <figure class="border-2">
-                                <a href="{{ asset('assets/New Image/photo_2024-06-27_14-02-28 (3).jpg') }}"
-                                    class="glightbox2">
-                                    <img class="w-full object-cover"
-                                        src="{{ asset('assets/New Image/photo_2024-06-27_14-02-28 (3).jpg') }}"
+                                <a href="{{ asset('assets/images/graduate_program.png') }}" class="glightbox2">
+                                    <img class="w-full object-cover" src="{{ asset('assets/images/graduate_program.png') }}"
                                         alt="Image Description" />
                                 </a>
                             </figure>

@@ -131,18 +131,19 @@
                             <th scope="col" class="px-6 py-3">
                                 Position
                             </th>
-                            <th scope="col" class="px-6 py-3">
+                            {{-- <th scope="col" class="px-6 py-3">
                                 Education
-                            </th>
+                            </th> --}}
                             <th scope="col" class="px-6 py-3">
                                 Email
                             </th>
-                            <th scope="col" class="px-6 py-3">
+                            {{-- <th scope="col" class="px-6 py-3">
                                 Degree
-                            </th>
+                            </th> --}}
                         </tr>
                     </thead>
                     <tbody class="">
+
                         <tr class="text-black font-poppins">
                             <th scope="row" class="px-6 py-4 border border-[#15803d]  whitespace-nowrap dark:text-white">
                                 <img src="{{ asset('assets/images/teacher2.png') }}"
@@ -154,24 +155,23 @@
                             <td class="px-6 py-4 border border-[#15803d]">
                                 Vice-Dean
                             </td>
-                            <td class="px-6 py-4 border border-[#15803d]">
+                            {{-- <td class="px-6 py-4 border border-[#15803d]">
                                 Master
-                            </td>
+                            </td> --}}
                             <td class="px-6 py-4 border border-[#15803d]">
                                 cheabunthon@rua.edu.kh
                             </td>
-                            <td class="px-6 py-4 border border-[#15803d] ">
+                            {{-- <td class="px-6 py-4 border border-[#15803d] ">
                                 <a href="{{ asset('assets/New Image/degree.jpg') }}" class="glightbox2"
                                     data-gallery="gallery1">
                                     <img class="w-full object-cover" src="{{ asset('assets/New Image/degree.jpg') }}"
                                         alt="Image Description" />
                                 </a>
-                            </td>
+                            </td> --}}
 
                         </tr>
                         <tr class="text-black font-poppins">
-                            <th scope="row"
-                                class="px-6 py-4 border border-[#15803d]  whitespace-nowrap dark:text-white">
+                            <th scope="row" class="px-6 py-4 border border-[#15803d]  whitespace-nowrap dark:text-white">
                                 <img src="{{ asset('assets/images/teacher1.png') }}"
                                     class="h-44 aspect-square object-cover">
                             </th>
@@ -181,24 +181,23 @@
                             <td class="px-6 py-4 border border-[#15803d]">
                                 Dean
                             </td>
-                            <td class="px-6 py-4 border border-[#15803d]">
+                            {{-- <td class="px-6 py-4 border border-[#15803d]">
                                 PHD
-                            </td>
+                            </td> --}}
                             <td class="px-6 py-4 border border-[#15803d]">
                                 kkroesna@rua.edu.kh
                             </td>
-                            <td class="px-6 py-4 border border-[#15803d] ">
+                            {{-- <td class="px-6 py-4 border border-[#15803d] ">
                                 <a href="{{ asset('assets/New Image/degree.jpg') }}" class="glightbox2"
                                     data-gallery="gallery2">
                                     <img class="w-full object-cover" src="{{ asset('assets/New Image/degree.jpg') }}"
                                         alt="Image Description" />
                                 </a>
-                            </td>
+                            </td> --}}
 
                         </tr>
                         <tr class="text-black font-poppins">
-                            <th scope="row"
-                                class="px-6 py-4 border border-[#15803d]  whitespace-nowrap dark:text-white">
+                            <th scope="row" class="px-6 py-4 border border-[#15803d]  whitespace-nowrap dark:text-white">
                                 <img src="{{ asset('assets/images/teacher3.png') }}"
                                     class="h-44 aspect-square object-cover">
                             </th>
@@ -208,19 +207,19 @@
                             <td class="px-6 py-4 border border-[#15803d]">
                                 Vice-Dean
                             </td>
-                            <td class="px-6 py-4 border border-[#15803d]">
+                            {{-- <td class="px-6 py-4 border border-[#15803d]">
                                 PHD
-                            </td>
+                            </td> --}}
                             <td class="px-6 py-4 border border-[#15803d]">
                                 thengkouch@rua.edu.kh
                             </td>
-                            <td class="px-6 py-4 border border-[#15803d] ">
+                            {{-- <td class="px-6 py-4 border border-[#15803d] ">
                                 <a href="{{ asset('assets/New Image/degree.jpg') }}" class="glightbox2"
                                     data-gallery="gallery3">
                                     <img class="w-full object-cover" src="{{ asset('assets/New Image/degree.jpg') }}"
                                         alt="Image Description" />
                                 </a>
-                            </td>
+                            </td> --}}
 
 
                         </tr>
@@ -236,19 +235,19 @@
                             <td class="px-6 py-4 border border-[#15803d]">
                                 Dean
                             </td>
-                            <td class="px-6 py-4 border border-[#15803d]">
+                            {{-- <td class="px-6 py-4 border border-[#15803d]">
                                 PHD
-                            </td>
+                            </td> --}}
                             <td class="px-6 py-4 border border-[#15803d]">
                                 kkroesna@rua.edu.kh
                             </td>
-                            <td class="px-6 py-4 border border-[#15803d] ">
+                            {{-- <td class="px-6 py-4 border border-[#15803d] ">
                                 <a href="{{ asset('assets/New Image/degree.jpg') }}" class="glightbox2"
                                     data-gallery="gallery4">
                                     <img class="w-full object-cover" src="{{ asset('assets/New Image/degree.jpg') }}"
                                         alt="Image Description" />
                                 </a>
-                            </td>
+                            </td> --}}
 
                         </tr>
                     </tbody>

@@ -279,7 +279,6 @@
                                         </div>
                                     </div>
                                     <!-- Teacher info 2 -->
-
                                     <div>
                                         <h2 id="accordion-collapse-heading-2">
                                             <button type="button"

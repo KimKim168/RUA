@@ -46,8 +46,6 @@
             <div class="col-span-12 lg:col-span-3">
                 <div class="cursor-pointer border-2 border-t-[#15803d] rounded-md pl-8 py-4 pr-2">
                     <ul class="space-y-3   text-sm">
-
-
                         <!-- item1 -->
                         <li
                             class="w-full hover:underline text-left  rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">

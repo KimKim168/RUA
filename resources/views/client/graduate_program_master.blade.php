@@ -16,13 +16,25 @@
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="m1 9 4-4-4-4" />
                         </svg>
-                        <a href="#"
+                        <a href="{{ url('/graduate') }}"
                             class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
-                            Bachelor Degree
+                            Graduate Programs
                         </a>
                     </div>
                 </li>
-
+                <li>
+                    <div class="flex items-center">
+                        <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 9 4-4-4-4" />
+                        </svg>
+                        <a href="{{ url('/graduate') }}"
+                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
+                            Master Program
+                        </a>
+                    </div>
+                </li>
             </ol>
         </section>
         <!-- End Breadcrumbs -->
@@ -32,25 +44,58 @@
             <!-- Start Left section -->
             <div class="col-span-12 lg:col-span-3">
                 <div class="cursor-pointer border-2 border-t-[#15803d] rounded-md pl-8 py-4 pr-2">
-                    <ul class="space-y-3   text-sm">
+                    {{-- Master program --}}
+                    <div>
+                        <div
+                            class="text-center text-xl font-domine mb-3  font-medium border-b-2 border-[#15803d] border-dashed ">
+                            <a href="{{ url('/graduate_program_master') }}">Master Program</a>
+                        </div>
+                        <ul class="space-y-3   text-sm">
+                            <!-- item1 -->
+                            <li
+                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                                <a href="#">
+                                    Integrated Management of Agricultural and Rural Development (GIDAR)
+                                </a>
+                            </li>
+                            <!-- item2 -->
+                            <li
+                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                                <a href="#">Natural Resources Management (NRM)
 
+                                </a>
+                            </li>
+                            <!-- item3 -->
+                            <li
+                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                                <a href="#">Crop Science (CS)</a>
+                            </li>
+                            <!-- item1 -->
+                            <li
+                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                                <a href="#">Animal Science (AS)
+                                </a>
+                            </li>
+                            <!-- item2 -->
+                            <li
+                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                                <a href="#">Food Science and Technology (FST)
+                                </a>
+                            </li>
+                            <!-- item3 -->
+                            <li
+                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                                <a href="#">Agricultural Extension (AE)</a>
+                            </li>
+                            <!-- item1 -->
+                            <li
+                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                                <a href="#">International Farm Management (IFM) </a>
+                            </li>
 
-                        <!-- item6 -->
-                        <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="">AERD…</a>
-                        </li>
-                        <!-- item6 -->
-                        <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="">Bachelor of Science in Veterinary Medicine</a>
-                        </li>
-                        <!-- item6 -->
-                        <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="">Doctor of Veterinary Medicine</a>
-                        </li>
-                    </ul>
+                        </ul>
+                    </div>
+                    {{-- End Master Program --}}
                 </div>
             </div>
             <!-- End Left Section -->
@@ -61,21 +106,18 @@
                 <div class="max-w-3xl px-4 pt-6 pb-12 sm:px-6 lg:px-8 mx-auto">
                     <div class="max-w-2xl">
                         <!-- Content -->
-                        <div class="space-y-4 md:space-y-6">
+                        <div class="space-y-4 md:space-y-3">
                             <div class="space-y-3">
                                 <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
-                                    Bachelor
+                                    Master Program
                                 </h2>
                             </div>
 
                             {{-- <figure class="border-2">
-                                <a href="{{ asset('assets/New Image/15896361_704356923079810_5674614839886319861_o.jpg') }}"
-                                    class="glightbox2">
-                                    <img class="w-full object-cover"
-                                        src="{{ asset('assets/New Image/15896361_704356923079810_5674614839886319861_o.jpg') }}"
+                                <a href="{{ asset('assets/images/graduate_program.png') }}" class="glightbox2">
+                                    <img class="w-full object-cover" src="{{ asset('assets/images/graduate_program.png') }}"
                                         alt="Image Description" />
                                 </a>
-
                             </figure> --}}
                             {{-- 1st year --}}
                             <div>
@@ -150,10 +192,12 @@
                                                     <td class="px-4 py-2 border border-gray-400">2(2-0)</td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="px-4 py-2 border border-gray-400 font-semibold">Total credits
+                                                    <td class="px-4 py-2 border border-gray-400 font-semibold">Total
+                                                        credits
                                                     </td>
                                                     <td class="px-4 py-2 border border-gray-400 font-semibold">18</td>
-                                                    <td class="px-4 py-2 border border-gray-400 font-semibold">Total credits
+                                                    <td class="px-4 py-2 border border-gray-400 font-semibold">Total
+                                                        credits
                                                     </td>
                                                     <td class="px-4 py-2 border border-gray-400 font-semibold">16</td>
                                                 </tr>
@@ -172,7 +216,8 @@
                             </div>
                             {{-- 2nd year --}}
                             <div>
-                                <h1 class="text-2xl font-domine text-red-600 font-bold text-center dark:text-neutral-200  ">
+                                <h1
+                                    class="text-2xl font-domine text-red-600 font-bold text-center dark:text-neutral-200  ">
                                     2nd Year
                                 </h1>
                                 <div class="flex justify-center items-center  bg-gray-100 mt-2">
@@ -183,7 +228,8 @@
                                             <thead>
                                                 <tr>
                                                     <th colspan="2"
-                                                        class="border border-gray-400 px-4 py-2 font-bold text-center">First
+                                                        class="border border-gray-400 px-4 py-2 font-bold text-center">
+                                                        First
                                                         Semester (16 weeks)</th>
                                                     <th colspan="2"
                                                         class="border border-gray-400 px-4 py-2 font-bold text-center">
@@ -262,6 +308,7 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                         <!-- End Content -->
                     </div>
@@ -282,60 +329,6 @@
                             Students who are looking for a scholarship, RUPP provides a number of sources of scholarships.
                         </h3>
 
-                    </div>
-                </div>
-                <div id="contactbox" class="p-6 bg-white rounded-lg border-2  border-t-[#15803d]">
-                    <h2 class="text-2xl font-semibold mb-4 font-domine">Contact Info</h2>
-                    <img src="https://rupp.edu.kh/images/contact.jpg" alt="Contact Image"
-                        class="w-full h-auto mb-4 rounded-lg" />
-
-                    <div class="mb-6">
-                        <h3 class="text-md font-semibold mb-2">
-                            Dean, Faculty of Development Studies (FDS)
-                        </h3>
-                        <dl>
-                            <dt class="text-md font-medium">
-                                Rath Sethik, PhD
-                            </dt>
-                            <dt class="tel text-gray-600">
-                                <b>Tel:</b> (855)12 556 579
-                            </dt>
-                            <dt class="email text-gray-600">
-                                <b>Email:</b>
-                                <a href="mailto:rath.sethik@email.kh"
-                                    class="text-blue-600 hover:underline">rath.sethik@email.kh</a>
-                            </dt>
-                        </dl>
-                    </div>
-
-                    <div class="mb-6">
-                        <h3 class="text-md font-semibold mb-2">
-                            Vice Dean of FDS
-                        </h3>
-                        <dl class="mb-4">
-                            <dt class="text-md font-medium">Heng Naret, PhD</dt>
-                            <dt class="text-gray-600">
-                                <b>Tel:</b> (855)12 830 386
-                            </dt>
-                            <dt class="text-gray-600">
-                                <b>Email:</b>
-                                <a href="mailto:heng.naret@email.kh"
-                                    class="text-blue-600 hover:underline">heng.naret@email.kh</a>
-                            </dt>
-                        </dl>
-                        <dl>
-                            <dt class="text-md font-medium">
-                                Seak Sophat, PhD
-                            </dt>
-                            <dt class="text-gray-600">
-                                <b>Tel:</b> (855)16 506 888
-                            </dt>
-                            <dt class="text-gray-600">
-                                <b>Email:</b>
-                                <a href="mailto:seak.sophat@email.kh"
-                                    class="text-blue-600 hover:underline">seak.sophat@email.kh</a>
-                            </dt>
-                        </dl>
                     </div>
                 </div>
             </div>
