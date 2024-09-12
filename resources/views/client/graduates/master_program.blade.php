@@ -104,7 +104,7 @@
                         <div class="space-y-4 md:space-y-6">
                             <div class="space-y-3">
                                 <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
-                                    Program Master Degree
+                                    Master Program
                                 </h2>
                             </div>
 
