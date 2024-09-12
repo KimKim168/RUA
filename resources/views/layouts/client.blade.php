@@ -646,9 +646,9 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="#"
+                                    <a href="{{ url('/phd_program') }}"
                                         class="block px-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">PhD
-                                        Program
+                                        Programs
                                     </a>
                                 </li>
                             </ul>

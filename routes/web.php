@@ -180,6 +180,10 @@ Route::get('/master_program', function () {
     return view('client.graduates.master_program');
 })->name('client.graduates.master_program');
 
+Route::get('/phd_program', function () {
+    return view('client.graduates.phd_program');
+})->name('client.graduates.phd_program');
+
 Route::get('/sub_master_program', function () {
     return view('client.graduates.gidar');
 })->name('client.graduates.master_gidar');

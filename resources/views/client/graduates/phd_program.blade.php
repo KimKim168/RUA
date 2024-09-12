@@ -18,7 +18,20 @@
                         </svg>
                         <a href="#"
                             class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
-                            Bachelor Degree
+                            Graduate Programs
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex items-center">
+                        <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 9 4-4-4-4" />
+                        </svg>
+                        <a href="{{ url('/master_program') }}"
+                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
+                            Master Program
                         </a>
                     </div>
                 </li>
@@ -32,21 +45,24 @@
             <!-- Start Left section -->
             <div class="col-span-12 lg:col-span-3">
                 <div class="cursor-pointer border-2 border-t-[#15803d] rounded-md pl-8 py-4 pr-2">
+                    <div
+                        class="text-center text-xl font-domine mb-3  font-medium border-b-2 border-[#15803d] border-dashed ">
+                        <a href="{{ url('/phd_program') }}">PhD Programs</a>
+                    </div>
                     <ul class="space-y-3   text-sm">
-                        <!-- item6 -->
+
+
+                        <!-- item1 -->
                         <li
                             class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="">AERD…</a>
+                            <a href="#">Agricultural Science (AGS) (More than 25 major fields of study)
+                            </a>
                         </li>
                         <!-- item6 -->
                         <li
                             class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="#">Bachelor of Science in Veterinary Medicine</a>
-                        </li>
-                        <!-- item6 -->
-                        <li
-                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                            <a href="#">Doctor of Veterinary Medicine</a>
+                            <a href="#">Crop Science (CS)
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -62,20 +78,28 @@
                         <div class="space-y-4 md:space-y-6">
                             <div class="space-y-3">
                                 <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
-                                    Bachelor
+                                    PhD Programs
                                 </h2>
                             </div>
 
                             <figure class="border-2">
-                                <a href="{{ asset('assets/New Image/15896361_704356923079810_5674614839886319861_o.jpg') }}"
+                                <a href="{{ asset('assets/New Image/photo_2024-06-27_14-02-09 (2).jpg') }}"
                                     class="glightbox2">
                                     <img class="w-full object-cover"
-                                        src="{{ asset('assets/New Image/15896361_704356923079810_5674614839886319861_o.jpg') }}"
+                                        src="{{ asset('assets/New Image/photo_2024-06-27_14-02-09 (2).jpg') }}"
                                         alt="Image Description" />
                                 </a>
 
                             </figure>
-
+                            <p class="text-md text-gray-800 dark:text-neutral-200 text-justify">
+                                As we've grown, we've seen how Preline has
+                                helped companies such as Spotify, Microsoft,
+                                Airbnb, Facebook, and Intercom bring their
+                                designers closer together to create amazing
+                                things. We've also learned that when the culture
+                                of sharing is brought in earlier, the better
+                                teams adapt and communicate with one another.
+                            </p>
                         </div>
                         <!-- End Content -->
                     </div>
@@ -154,8 +178,8 @@
                 </div>
             </div>
 
-            <!-- End Right Section -->
         </div>
+        <!-- End Right Section -->
         <!-- End Main Content -->
     </section>
 @endsection
