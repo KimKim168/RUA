@@ -1,3 +1,6 @@
+<div>
+    <!-- Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less. - Marie Curie -->
+</div>
 @extends('layouts.client')
 @section('content')
     <section class="font-poppins" style="">
@@ -16,35 +19,9 @@
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="m1 9 4-4-4-4" />
                         </svg>
-                        <a href="{{ url('/graduate') }}"
+                        <a href="{{ url('/bachelor') }}"
                             class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
-                            Graduate Programs
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="flex items-center">
-                        <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="m1 9 4-4-4-4" />
-                        </svg>
-                        <a href="{{ url('/master_program') }}"
-                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
-                            Master Program
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="flex items-center">
-                        <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="m1 9 4-4-4-4" />
-                        </svg>
-                        <a href="{{ url('/sub_master_program') }}"
-                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
-                            Integrated Management of Agricultural and Rural Development (GIDAR)
+                            Bachelor Degree
                         </a>
                     </div>
                 </li>
@@ -57,10 +34,11 @@
                         </svg>
                         <a href="#"
                             class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
-                            Curriculums
+                            Bachelor of Science in Veterinary Medicine
                         </a>
                     </div>
                 </li>
+
             </ol>
         </section>
         <!-- End Breadcrumbs -->
@@ -70,72 +48,25 @@
             <!-- Start Left section -->
             <div class="col-span-12 lg:col-span-3">
                 <div class="cursor-pointer border-2 border-t-[#15803d] rounded-md pl-8 py-4 pr-2">
-                    {{-- Master program --}}
-                    <div>
-                        <ul class="space-y-3   text-sm">
-                            <!-- item1 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">
-                                    Introduction
-                                </a>
-                            </li>
-                            <!-- item1 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">
-                                    Program Coordination
+                    <ul class="space-y-3   text-sm">
 
-                                </a>
-                            </li>
-                            <!-- item2 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">Admissions
 
-                                </a>
-                            </li>
-                            <!-- item3 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">Enrolment</a>
-                            </li>
-                            <!-- item1 -->
-                            <li
-                                class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="{{ url('/curriculum_graduate_program_master') }}">Curriculums
-                                </a>
-                            </li>
-                            <!-- item2 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">Students Support
-
-                                </a>
-                            </li>
-                            <!-- item3 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">Students Assessment
-                                </a>
-                            </li>
-                            <!-- item1 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">Recent Students Thesis
-                                </a>
-                            </li>
-                            <!-- item1 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">Staff and Partner
-
-                                </a>
-                            </li>
-
-                        </ul>
-                    </div>
-                    {{-- End Master Program --}}
+                        <!-- item6 -->
+                        <li
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="">AERD…</a>
+                        </li>
+                        <!-- item6 -->
+                        <li
+                            class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="{{ url('/curriculum_bachelor') }}">Bachelor of Science in Veterinary Medicine</a>
+                        </li>
+                        <!-- item6 -->
+                        <li
+                            class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                            <a href="">Doctor of Veterinary Medicine</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <!-- End Left Section -->
@@ -146,20 +77,21 @@
                 <div class="max-w-3xl px-4 pt-6 pb-12 sm:px-6 lg:px-8 mx-auto">
                     <div class="max-w-2xl">
                         <!-- Content -->
-                        <div class="space-y-4 md:space-y-3">
+                        <div class="space-y-4 md:space-y-6">
                             <div class="space-y-3">
                                 <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
-                                    Curriculums
+                                    Bachelor of Science in Veterinary Medicine
                                 </h2>
                             </div>
-                            {{-- 
-                            <figure class="border-2">
-                                <a href="{{ asset('assets/New Image/16107572_704354176413418_4398238422947701313_o.jpg') }}"
+
+                            {{-- <figure class="border-2">
+                                <a href="{{ asset('assets/New Image/15896361_704356923079810_5674614839886319861_o.jpg') }}"
                                     class="glightbox2">
                                     <img class="w-full object-cover"
-                                        src="{{ asset('assets/New Image/16107572_704354176413418_4398238422947701313_o.jpg') }}"
+                                        src="{{ asset('assets/New Image/15896361_704356923079810_5674614839886319861_o.jpg') }}"
                                         alt="Image Description" />
                                 </a>
+
                             </figure> --}}
                             {{-- 1st year --}}
                             <div>
@@ -234,12 +166,10 @@
                                                     <td class="px-4 py-2 border border-gray-400">2(2-0)</td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="px-4 py-2 border border-gray-400 font-semibold">Total
-                                                        credits
+                                                    <td class="px-4 py-2 border border-gray-400 font-semibold">Total credits
                                                     </td>
                                                     <td class="px-4 py-2 border border-gray-400 font-semibold">18</td>
-                                                    <td class="px-4 py-2 border border-gray-400 font-semibold">Total
-                                                        credits
+                                                    <td class="px-4 py-2 border border-gray-400 font-semibold">Total credits
                                                     </td>
                                                     <td class="px-4 py-2 border border-gray-400 font-semibold">16</td>
                                                 </tr>
@@ -258,8 +188,7 @@
                             </div>
                             {{-- 2nd year --}}
                             <div>
-                                <h1
-                                    class="text-2xl font-domine text-red-600 font-bold text-center dark:text-neutral-200  ">
+                                <h1 class="text-2xl font-domine text-red-600 font-bold text-center dark:text-neutral-200  ">
                                     2nd Year
                                 </h1>
                                 <div class="flex justify-center items-center  bg-gray-100 mt-2">
@@ -270,8 +199,7 @@
                                             <thead>
                                                 <tr>
                                                     <th colspan="2"
-                                                        class="border border-gray-400 px-4 py-2 font-bold text-center">
-                                                        First
+                                                        class="border border-gray-400 px-4 py-2 font-bold text-center">First
                                                         Semester (16 weeks)</th>
                                                     <th colspan="2"
                                                         class="border border-gray-400 px-4 py-2 font-bold text-center">
@@ -350,7 +278,6 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <!-- End Content -->
                     </div>
@@ -371,6 +298,60 @@
                             Students who are looking for a scholarship, RUPP provides a number of sources of scholarships.
                         </h3>
 
+                    </div>
+                </div>
+                <div id="contactbox" class="p-6 bg-white rounded-lg border-2  border-t-[#15803d]">
+                    <h2 class="text-2xl font-semibold mb-4 font-domine">Contact Info</h2>
+                    <img src="https://rupp.edu.kh/images/contact.jpg" alt="Contact Image"
+                        class="w-full h-auto mb-4 rounded-lg" />
+
+                    <div class="mb-6">
+                        <h3 class="text-md font-semibold mb-2">
+                            Dean, Faculty of Development Studies (FDS)
+                        </h3>
+                        <dl>
+                            <dt class="text-md font-medium">
+                                Rath Sethik, PhD
+                            </dt>
+                            <dt class="tel text-gray-600">
+                                <b>Tel:</b> (855)12 556 579
+                            </dt>
+                            <dt class="email text-gray-600">
+                                <b>Email:</b>
+                                <a href="mailto:rath.sethik@email.kh"
+                                    class="text-blue-600 hover:underline">rath.sethik@email.kh</a>
+                            </dt>
+                        </dl>
+                    </div>
+
+                    <div class="mb-6">
+                        <h3 class="text-md font-semibold mb-2">
+                            Vice Dean of FDS
+                        </h3>
+                        <dl class="mb-4">
+                            <dt class="text-md font-medium">Heng Naret, PhD</dt>
+                            <dt class="text-gray-600">
+                                <b>Tel:</b> (855)12 830 386
+                            </dt>
+                            <dt class="text-gray-600">
+                                <b>Email:</b>
+                                <a href="mailto:heng.naret@email.kh"
+                                    class="text-blue-600 hover:underline">heng.naret@email.kh</a>
+                            </dt>
+                        </dl>
+                        <dl>
+                            <dt class="text-md font-medium">
+                                Seak Sophat, PhD
+                            </dt>
+                            <dt class="text-gray-600">
+                                <b>Tel:</b> (855)16 506 888
+                            </dt>
+                            <dt class="text-gray-600">
+                                <b>Email:</b>
+                                <a href="mailto:seak.sophat@email.kh"
+                                    class="text-blue-600 hover:underline">seak.sophat@email.kh</a>
+                            </dt>
+                        </dl>
                     </div>
                 </div>
             </div>

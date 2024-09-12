@@ -162,10 +162,24 @@ Route::get('/contact_us_in_faculty', function () {
     return view('client.contact_us_in_faculty');
 })->name('client.contact_us_in_faculty');
 
-Route::get('/graduate_program_master', function () {
+Route::get('/curriculum_graduate_program_master', function () {
     return view('client.graduate_program_master');
 })->name('client.graduate_program_master');
 
 Route::get('/graduate_program_phd', function () {
     return view('client.graduate_program_phd');
 })->name('client.graduate_program_phd');
+
+Route::get('/curriculum_bachelor', function () {
+    return view('client.curriculum_bachelor');
+})->name('client.curriculum_bachelor');
+
+// graduate
+
+Route::get('/master_program', function () {
+    return view('client.graduates.master_program');
+})->name('client.graduates.master_program');
+
+Route::get('/sub_master_program', function () {
+    return view('client.graduates.gidar');
+})->name('client.graduates.master_gidar');

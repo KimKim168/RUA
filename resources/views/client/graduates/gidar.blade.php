@@ -22,6 +22,32 @@
                         </a>
                     </div>
                 </li>
+                <li>
+                    <div class="flex items-center">
+                        <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 9 4-4-4-4" />
+                        </svg>
+                        <a href="{{ url('/master_program') }}"
+                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
+                            Master Program
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex items-center">
+                        <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 9 4-4-4-4" />
+                        </svg>
+                        <a href="{{ url('/sub_master_program') }}"
+                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
+                            Integrated Management of Agricultural and Rural Development (GIDAR)
+                        </a>
+                    </div>
+                </li>
             </ol>
         </section>
         <!-- End Breadcrumbs -->
@@ -33,80 +59,71 @@
                 <div class="cursor-pointer border-2 border-t-[#15803d] rounded-md pl-8 py-4 pr-2">
                     {{-- Master program --}}
                     <div>
-                        <div
-                            class="text-center text-xl font-domine mb-3  font-medium border-b-2 border-[#15803d] border-dashed ">
-                            <a href="#">Master Program</a>
-                        </div>
+
                         <ul class="space-y-3   text-sm">
                             <!-- item1 -->
                             <li
                                 class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="{{ url('/curriculum_graduate_program_master') }}">
-                                </a>
-                            </li>
-                            <!-- item2 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                                 <a href="#">
-
+                                    Introduction
                                 </a>
-                            </li>
-                            <!-- item3 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#"></a>
                             </li>
                             <!-- item1 -->
                             <li
                                 class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
                                 <a href="#">
+                                    Program Coordination
 
                                 </a>
                             </li>
                             <!-- item2 -->
                             <li
                                 class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">
+                                <a href="#">Admissions
+
                                 </a>
                             </li>
                             <!-- item3 -->
                             <li
                                 class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#"></a>
+                                <a href="#">Enrolment</a>
+                            </li>
+                            <!-- item1 -->
+                            <li
+                                class="w-full underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                                <a href="{{ url('/curriculum_graduate_program_master') }}">Curriculums
+                                </a>
+                            </li>
+                            <!-- item2 -->
+                            <li
+                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                                <a href="#">Students Support
+
+                                </a>
+                            </li>
+                            <!-- item3 -->
+                            <li
+                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                                <a href="#">Students Assessment
+                                </a>
                             </li>
                             <!-- item1 -->
                             <li
                                 class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#"></a>
+                                <a href="#">Recent Students Thesis
+                                </a>
+                            </li>
+                            <!-- item1 -->
+                            <li
+                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
+                                <a href="#">Staff and Partner
+
+                                </a>
                             </li>
 
                         </ul>
                     </div>
                     {{-- End Master Program --}}
-
-                    {{-- Phd program --}}
-                    <div>
-                        <div
-                            class="text-center text-xl font-domine mb-3 mt-3 font-medium border-b-2 border-[#15803d] border-dashed ">
-                            <a href="{{ url('/graduate_program_phd') }}">PhD Program</a>
-                        </div>
-                        <ul class="space-y-3   text-sm">
-                            <!-- item1 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">
-                                </a>
-                            </li>
-                            <!-- item2 -->
-                            <li
-                                class="w-full hover:underline text-leftfont-medium rtl:text-right  border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 gap-3 list-disc">
-                                <a href="#">
-                                </a>
-                            </li>
-
-                        </ul>
-                    </div>
-                    {{-- End Phd Program --}}
                 </div>
             </div>
             <!-- End Left Section -->
@@ -120,16 +137,19 @@
                         <div class="space-y-4 md:space-y-3">
                             <div class="space-y-3">
                                 <h2 class="text-3xl font-domine font-bold md:text-3xl dark:text-white">
-                                    Graduate Programs
+                                    Integrated Management of Agricultural and Rural Development
                                 </h2>
                             </div>
 
                             <figure class="border-2">
-                                <a href="{{ asset('assets/images/graduate_program.png') }}" class="glightbox2">
-                                    <img class="w-full object-cover" src="{{ asset('assets/images/graduate_program.png') }}"
+                                <a href="{{ asset('assets/New Image/16107572_704354176413418_4398238422947701313_o.jpg') }}"
+                                    class="glightbox2">
+                                    <img class="w-full object-cover"
+                                        src="{{ asset('assets/New Image/16107572_704354176413418_4398238422947701313_o.jpg') }}"
                                         alt="Image Description" />
                                 </a>
                             </figure>
+
 
                         </div>
                         <!-- End Content -->

@@ -603,27 +603,15 @@
                                 <li>
                                     <a href="{{ url('/graduate') }}"
                                         class="block px-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Graduate
-                                        Programs
+                                        Programs Management
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#"
-                                        class="block px-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                                        Management
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        class="block px-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                                        Master
-                                    </a>
-                                </li>
+
                                 <li>
                                     <div class="flex">
-                                        <a href="#"
+                                        <a href="{{ url('/master_program') }}"
                                             class="flex-1 pl-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                                            Program
-
+                                            Master Programs
                                         </a>
                                         <button id="DropdownButtonManage" data-dropdown-toggle="doubleDropdownManage"
                                             data-dropdown-placement="bottom-start" type="button"
@@ -653,14 +641,15 @@
                                                     class="block px-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">NRM
                                                 </a>
                                             </li>
-                                            <li>
-                                                <a href="#"
-                                                    class="block px-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                                                    PhD Program
-                                                </a>
-                                            </li>
+
                                         </ul>
                                     </div>
+                                </li>
+                                <li>
+                                    <a href="{{ url('/graduate') }}"
+                                        class="block px-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">PhD
+                                        Program
+                                    </a>
                                 </li>
                             </ul>
                         </div>
